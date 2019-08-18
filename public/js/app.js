@@ -2085,6 +2085,211 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 var config = {
   headers: {
     Authorization: "Bearer ".concat(window.localStorage.getItem("token"))
@@ -2173,11 +2378,11 @@ var config = {
             switch (_context2.prev = _context2.next) {
               case 0:
                 _context2.next = 2;
-                return axios.get('http://127.0.0.1:8000/api/v1/forms_details', config);
+                return axios.get("http://127.0.0.1:8000/api/v1/forms_details", config);
 
               case 2:
                 result = _context2.sent;
-                this.data = result['data'].data;
+                this.data = result["data"].data;
 
               case 4:
               case "end":
@@ -39265,7 +39470,7 @@ var render = function() {
                         rel: "noopener noreferrer"
                       }
                     },
-                    [_vm._v("Download as Excel sheet")]
+                    [_vm._v("Export To Excel")]
                   ),
                   _vm._v(" "),
                   _c(
@@ -39299,7 +39504,36 @@ var render = function() {
                                         _c(
                                           "div",
                                           { staticClass: "col-md-auto" },
-                                          [_vm._v("Field 1")]
+                                          [_vm._v("Site Ref")]
+                                        ),
+                                        _vm._v(" "),
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [
+                                            _vm._v(
+                                              _vm._s(
+                                                _vm.item["formDetails"].site_ref
+                                              )
+                                            )
+                                          ]
+                                        )
+                                      ]
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("li", { staticClass: "list-group-item" }, [
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "row mt-0 justify-content-around"
+                                      },
+                                      [
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [_vm._v("Site Type")]
                                         ),
                                         _vm._v(" "),
                                         _c(
@@ -39329,7 +39563,37 @@ var render = function() {
                                         _c(
                                           "div",
                                           { staticClass: "col-md-auto" },
-                                          [_vm._v("Field 1")]
+                                          [_vm._v("Date and Time")]
+                                        ),
+                                        _vm._v(" "),
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [
+                                            _vm._v(
+                                              _vm._s(
+                                                _vm.item["formDetails"]
+                                                  .date_and_time
+                                              )
+                                            )
+                                          ]
+                                        )
+                                      ]
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("li", { staticClass: "list-group-item" }, [
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "row mt-0 justify-content-around"
+                                      },
+                                      [
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [_vm._v("Cluster Engineer")]
                                         ),
                                         _vm._v(" "),
                                         _c(
@@ -39359,63 +39623,7 @@ var render = function() {
                                         _c(
                                           "div",
                                           { staticClass: "col-md-auto" },
-                                          [_vm._v("Field 1")]
-                                        ),
-                                        _vm._v(" "),
-                                        _c(
-                                          "div",
-                                          { staticClass: "col-md-auto" },
-                                          [
-                                            _vm._v(
-                                              _vm._s(
-                                                _vm.item["formDetails"].date
-                                              )
-                                            )
-                                          ]
-                                        )
-                                      ]
-                                    )
-                                  ]),
-                                  _vm._v(" "),
-                                  _c("li", { staticClass: "list-group-item" }, [
-                                    _c(
-                                      "div",
-                                      {
-                                        staticClass:
-                                          "row mt-0 justify-content-around"
-                                      },
-                                      [
-                                        _c(
-                                          "div",
-                                          { staticClass: "col-md-auto" },
-                                          [_vm._v("Field 1")]
-                                        ),
-                                        _vm._v(" "),
-                                        _c(
-                                          "div",
-                                          { staticClass: "col-md-auto" },
-                                          [
-                                            _vm._v(
-                                              _vm._s(_vm.item.location_latitude)
-                                            )
-                                          ]
-                                        )
-                                      ]
-                                    )
-                                  ]),
-                                  _vm._v(" "),
-                                  _c("li", { staticClass: "list-group-item" }, [
-                                    _c(
-                                      "div",
-                                      {
-                                        staticClass:
-                                          "row mt-0 justify-content-around"
-                                      },
-                                      [
-                                        _c(
-                                          "div",
-                                          { staticClass: "col-md-auto" },
-                                          [_vm._v("Field 1")]
+                                          [_vm._v("Checkman")]
                                         ),
                                         _vm._v(" "),
                                         _c(
@@ -39425,7 +39633,7 @@ var render = function() {
                                             _vm._v(
                                               _vm._s(
                                                 _vm.item["formDetails"]
-                                                  .location_latitude
+                                                  .check_man
                                               )
                                             )
                                           ]
@@ -39445,7 +39653,7 @@ var render = function() {
                                         _c(
                                           "div",
                                           { staticClass: "col-md-auto" },
-                                          [_vm._v("Field 1")]
+                                          [_vm._v("Site With Single Gen")]
                                         ),
                                         _vm._v(" "),
                                         _c(
@@ -39454,7 +39662,908 @@ var render = function() {
                                           [
                                             _vm._v(
                                               _vm._s(
-                                                _vm.item["formDetails"].site_ref
+                                                _vm.item["formDetails"]
+                                                  .site_with_single_generator
+                                              )
+                                            )
+                                          ]
+                                        )
+                                      ]
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("li", { staticClass: "list-group-item" }, [
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "row mt-0 justify-content-around"
+                                      },
+                                      [
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [_vm._v("S/N Gen1")]
+                                        ),
+                                        _vm._v(" "),
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [
+                                            _vm._v(
+                                              _vm._s(
+                                                _vm.item["formDetails"]
+                                                  .s_n_generator1
+                                              )
+                                            )
+                                          ]
+                                        )
+                                      ]
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("li", { staticClass: "list-group-item" }, [
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "row mt-0 justify-content-around"
+                                      },
+                                      [
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [_vm._v("S/N Gen2")]
+                                        ),
+                                        _vm._v(" "),
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [
+                                            _vm._v(
+                                              _vm._s(
+                                                _vm.item["formDetails"]
+                                                  .s_n_generator2
+                                              )
+                                            )
+                                          ]
+                                        )
+                                      ]
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("li", { staticClass: "list-group-item" }, [
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "row mt-0 justify-content-around"
+                                      },
+                                      [
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [_vm._v("Gen1 Type")]
+                                        ),
+                                        _vm._v(" "),
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [
+                                            _vm._v(
+                                              _vm._s(
+                                                _vm.item["formDetails"]
+                                                  .gen1_type
+                                              )
+                                            )
+                                          ]
+                                        )
+                                      ]
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("li", { staticClass: "list-group-item" }, [
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "row mt-0 justify-content-around"
+                                      },
+                                      [
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [_vm._v("Gen1 Size")]
+                                        ),
+                                        _vm._v(" "),
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [
+                                            _vm._v(
+                                              _vm._s(
+                                                _vm.item["formDetails"]
+                                                  .gen1_size
+                                              )
+                                            )
+                                          ]
+                                        )
+                                      ]
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("li", { staticClass: "list-group-item" }, [
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "row mt-0 justify-content-around"
+                                      },
+                                      [
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [_vm._v("Gen2 Type")]
+                                        ),
+                                        _vm._v(" "),
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [
+                                            _vm._v(
+                                              _vm._s(
+                                                _vm.item["formDetails"]
+                                                  .gen2_type
+                                              )
+                                            )
+                                          ]
+                                        )
+                                      ]
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("li", { staticClass: "list-group-item" }, [
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "row mt-0 justify-content-around"
+                                      },
+                                      [
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [_vm._v("Gen2 Size")]
+                                        ),
+                                        _vm._v(" "),
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [
+                                            _vm._v(
+                                              _vm._s(
+                                                _vm.item["formDetails"]
+                                                  .gen2_size
+                                              )
+                                            )
+                                          ]
+                                        )
+                                      ]
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("li", { staticClass: "list-group-item" }, [
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "row mt-0 justify-content-around"
+                                      },
+                                      [
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [_vm._v("Gen1 Status")]
+                                        ),
+                                        _vm._v(" "),
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [
+                                            _vm._v(
+                                              _vm._s(
+                                                _vm.item["formDetails"]
+                                                  .gen1_status
+                                              )
+                                            )
+                                          ]
+                                        )
+                                      ]
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("li", { staticClass: "list-group-item" }, [
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "row mt-0 justify-content-around"
+                                      },
+                                      [
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [_vm._v("Gen2 Status")]
+                                        ),
+                                        _vm._v(" "),
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [
+                                            _vm._v(
+                                              _vm._s(
+                                                _vm.item["formDetails"]
+                                                  .gen2_status
+                                              )
+                                            )
+                                          ]
+                                        )
+                                      ]
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("li", { staticClass: "list-group-item" }, [
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "row mt-0 justify-content-around"
+                                      },
+                                      [
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [_vm._v("Gen1 R.Hours")]
+                                        ),
+                                        _vm._v(" "),
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [
+                                            _vm._v(
+                                              _vm._s(
+                                                _vm.item["formDetails"]
+                                                  .gen1_rhours
+                                              )
+                                            )
+                                          ]
+                                        )
+                                      ]
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("li", { staticClass: "list-group-item" }, [
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "row mt-0 justify-content-around"
+                                      },
+                                      [
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [_vm._v("Gen2 R.Hours")]
+                                        ),
+                                        _vm._v(" "),
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [
+                                            _vm._v(
+                                              _vm._s(
+                                                _vm.item["formDetails"]
+                                                  .gen2_rhours
+                                              )
+                                            )
+                                          ]
+                                        )
+                                      ]
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("li", { staticClass: "list-group-item" }, [
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "row mt-0 justify-content-around"
+                                      },
+                                      [
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [_vm._v("Gen1 Oil")]
+                                        ),
+                                        _vm._v(" "),
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [
+                                            _vm._v(
+                                              _vm._s(
+                                                _vm.item["formBooleans"]
+                                                  .gen1_oil
+                                              )
+                                            )
+                                          ]
+                                        )
+                                      ]
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("li", { staticClass: "list-group-item" }, [
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "row mt-0 justify-content-around"
+                                      },
+                                      [
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [_vm._v("Gen1 Oil Hours")]
+                                        ),
+                                        _vm._v(" "),
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [
+                                            _vm._v(
+                                              _vm._s(
+                                                _vm.item["formDetails"]
+                                                  .gen1_oil_hours
+                                              )
+                                            )
+                                          ]
+                                        )
+                                      ]
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("li", { staticClass: "list-group-item" }, [
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "row mt-0 justify-content-around"
+                                      },
+                                      [
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [_vm._v("Gen2 Oil")]
+                                        ),
+                                        _vm._v(" "),
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [
+                                            _vm._v(
+                                              _vm._s(
+                                                _vm.item["formBooleans"]
+                                                  .gen2_oil
+                                              )
+                                            )
+                                          ]
+                                        )
+                                      ]
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("li", { staticClass: "list-group-item" }, [
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "row mt-0 justify-content-around"
+                                      },
+                                      [
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [_vm._v("Gen2 Oil Hours")]
+                                        ),
+                                        _vm._v(" "),
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [
+                                            _vm._v(
+                                              _vm._s(
+                                                _vm.item["formDetails"]
+                                                  .gen2_oil_hours
+                                              )
+                                            )
+                                          ]
+                                        )
+                                      ]
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("li", { staticClass: "list-group-item" }, [
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "row mt-0 justify-content-around"
+                                      },
+                                      [
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [_vm._v("Gen1 Oil Filter")]
+                                        ),
+                                        _vm._v(" "),
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [
+                                            _vm._v(
+                                              _vm._s(
+                                                _vm.item["formBooleans"]
+                                                  .gen1_oil_filter
+                                              )
+                                            )
+                                          ]
+                                        )
+                                      ]
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("li", { staticClass: "list-group-item" }, [
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "row mt-0 justify-content-around"
+                                      },
+                                      [
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [_vm._v("Gen2 Oil Filter")]
+                                        ),
+                                        _vm._v(" "),
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [
+                                            _vm._v(
+                                              _vm._s(
+                                                _vm.item["formBooleans"]
+                                                  .gen2_oil_filter
+                                              )
+                                            )
+                                          ]
+                                        )
+                                      ]
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("li", { staticClass: "list-group-item" }, [
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "row mt-0 justify-content-around"
+                                      },
+                                      [
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [_vm._v("Gen1 Fuel Filter")]
+                                        ),
+                                        _vm._v(" "),
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [
+                                            _vm._v(
+                                              _vm._s(
+                                                _vm.item["formBooleans"]
+                                                  .gen1_oil_filter
+                                              )
+                                            )
+                                          ]
+                                        )
+                                      ]
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("li", { staticClass: "list-group-item" }, [
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "row mt-0 justify-content-around"
+                                      },
+                                      [
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [_vm._v("Gen2 Fuel Filter")]
+                                        ),
+                                        _vm._v(" "),
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [
+                                            _vm._v(
+                                              _vm._s(
+                                                _vm.item["formBooleans"]
+                                                  .gen2_oil_filter
+                                              )
+                                            )
+                                          ]
+                                        )
+                                      ]
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("li", { staticClass: "list-group-item" }, [
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "row mt-0 justify-content-around"
+                                      },
+                                      [
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [_vm._v("Gen1 Lift Pump Filter")]
+                                        ),
+                                        _vm._v(" "),
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [
+                                            _vm._v(
+                                              _vm._s(
+                                                _vm.item["formBooleans"]
+                                                  .gen1_lift_pump_filter
+                                              )
+                                            )
+                                          ]
+                                        )
+                                      ]
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("li", { staticClass: "list-group-item" }, [
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "row mt-0 justify-content-around"
+                                      },
+                                      [
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [_vm._v("Gen2 Lift Pump Filter")]
+                                        ),
+                                        _vm._v(" "),
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [
+                                            _vm._v(
+                                              _vm._s(
+                                                _vm.item["formBooleans"]
+                                                  .gen2_lift_pump_filter
+                                              )
+                                            )
+                                          ]
+                                        )
+                                      ]
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("li", { staticClass: "list-group-item" }, [
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "row mt-0 justify-content-around"
+                                      },
+                                      [
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [_vm._v("Gen1 Air Filter")]
+                                        ),
+                                        _vm._v(" "),
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [
+                                            _vm._v(
+                                              _vm._s(
+                                                _vm.item["formBooleans"]
+                                                  .gen1_air_filter
+                                              )
+                                            )
+                                          ]
+                                        )
+                                      ]
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("li", { staticClass: "list-group-item" }, [
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "row mt-0 justify-content-around"
+                                      },
+                                      [
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [_vm._v("Gen2 Air Filter")]
+                                        ),
+                                        _vm._v(" "),
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [
+                                            _vm._v(
+                                              _vm._s(
+                                                _vm.item["formBooleans"]
+                                                  .gen2_air_filter
+                                              )
+                                            )
+                                          ]
+                                        )
+                                      ]
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("li", { staticClass: "list-group-item" }, [
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "row mt-0 justify-content-around"
+                                      },
+                                      [
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [_vm._v("Gen1 Clean")]
+                                        ),
+                                        _vm._v(" "),
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [
+                                            _vm._v(
+                                              _vm._s(
+                                                _vm.item["formBooleans"]
+                                                  .gen1_clean
+                                              )
+                                            )
+                                          ]
+                                        )
+                                      ]
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("li", { staticClass: "list-group-item" }, [
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "row mt-0 justify-content-around"
+                                      },
+                                      [
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [_vm._v("Gen2 Clean")]
+                                        ),
+                                        _vm._v(" "),
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [
+                                            _vm._v(
+                                              _vm._s(
+                                                _vm.item["formBooleans"]
+                                                  .gen2_clean
+                                              )
+                                            )
+                                          ]
+                                        )
+                                      ]
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("li", { staticClass: "list-group-item" }, [
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "row mt-0 justify-content-around"
+                                      },
+                                      [
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [_vm._v("Gen1 Radiator Clean")]
+                                        ),
+                                        _vm._v(" "),
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [
+                                            _vm._v(
+                                              _vm._s(
+                                                _vm.item["formBooleans"]
+                                                  .gen1_radiator_clean
+                                              )
+                                            )
+                                          ]
+                                        )
+                                      ]
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("li", { staticClass: "list-group-item" }, [
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "row mt-0 justify-content-around"
+                                      },
+                                      [
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [_vm._v("Gen2 Radiator Clean")]
+                                        ),
+                                        _vm._v(" "),
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [
+                                            _vm._v(
+                                              _vm._s(
+                                                _vm.item["formBooleans"]
+                                                  .gen2_radiator_clean
+                                              )
+                                            )
+                                          ]
+                                        )
+                                      ]
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("li", { staticClass: "list-group-item" }, [
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "row mt-0 justify-content-around"
+                                      },
+                                      [
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [_vm._v("Gen1 Sensors Status")]
+                                        ),
+                                        _vm._v(" "),
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [
+                                            _vm._v(
+                                              _vm._s(
+                                                _vm.item["formBooleans"]
+                                                  .gen1_sensor_status
+                                              )
+                                            )
+                                          ]
+                                        )
+                                      ]
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("li", { staticClass: "list-group-item" }, [
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "row mt-0 justify-content-around"
+                                      },
+                                      [
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [_vm._v("Gen2 Sensors Status")]
+                                        ),
+                                        _vm._v(" "),
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [
+                                            _vm._v(
+                                              _vm._s(
+                                                _vm.item["formBooleans"]
+                                                  .gen2_sensor_status
+                                              )
+                                            )
+                                          ]
+                                        )
+                                      ]
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("li", { staticClass: "list-group-item" }, [
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "row mt-0 justify-content-around"
+                                      },
+                                      [
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [_vm._v("Gen1 Charging Issue")]
+                                        ),
+                                        _vm._v(" "),
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [
+                                            _vm._v(
+                                              _vm._s(
+                                                _vm.item["formBooleans"]
+                                                  .gen1_charging_issue
+                                              )
+                                            )
+                                          ]
+                                        )
+                                      ]
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("li", { staticClass: "list-group-item" }, [
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "row mt-0 justify-content-around"
+                                      },
+                                      [
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [_vm._v("Gen2 Charging Issue")]
+                                        ),
+                                        _vm._v(" "),
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [
+                                            _vm._v(
+                                              _vm._s(
+                                                _vm.item["formBooleans"]
+                                                  .gen2_charging_issue
                                               )
                                             )
                                           ]
@@ -39588,7 +40697,7 @@ var staticRenderFns = [
                 "data-target": "#exampleModal"
               }
             },
-            [_vm._v("Add User ")]
+            [_vm._v("Add User")]
           )
         ])
       ]),
@@ -39675,7 +40784,7 @@ var staticRenderFns = [
       _c(
         "h5",
         { staticClass: "modal-title", attrs: { id: "exampleModalLabel1" } },
-        [_vm._v("Single Data user")]
+        [_vm._v("Full Data")]
       ),
       _vm._v(" "),
       _c(

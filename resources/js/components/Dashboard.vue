@@ -14,7 +14,7 @@
       </div>
     </div>
     <!-- Button trigger modal -->
-    
+
     <!-- Modal -->
     <div
       class="modal fade"
@@ -80,7 +80,7 @@
                   class="btn btn-primary"
                   data-toggle="modal"
                   data-target="#exampleModal"
-                >Add User </button>
+                >Add User</button>
               </div>
             </div>
 
@@ -147,7 +147,7 @@
             target="_blank"
             class="btn btn-primary"
             rel="noopener noreferrer"
-          >Download as Excel sheet</a>
+          >Export To Excel</a>
           <!-- Modal -->
 
           <div
@@ -161,7 +161,7 @@
             <div class="modal-dialog modal-lg">
               <div class="modal-content">
                 <div class="modal-header">
-                  <h5 class="modal-title" id="exampleModalLabel1">Single Data user</h5>
+                  <h5 class="modal-title" id="exampleModalLabel1">Full Data</h5>
                   <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                   </button>
@@ -170,38 +170,243 @@
                   <ul class="list-group" v-if="item != ''">
                     <li class="list-group-item">
                       <div class="row mt-0 justify-content-around">
-                        <div class="col-md-auto">Field 1</div>
+                        <div class="col-md-auto">Site Ref</div>
+                        <div class="col-md-auto">{{ item['formDetails'].site_ref }}</div>
+                      </div>
+                    </li>
+                    <li class="list-group-item">
+                      <div class="row mt-0 justify-content-around">
+                        <div class="col-md-auto">Site Type</div>
                         <div class="col-md-auto">{{ item['formDetails'].site_type }}</div>
                       </div>
                     </li>
                     <li class="list-group-item">
                       <div class="row mt-0 justify-content-around">
-                        <div class="col-md-auto">Field 1</div>
+                        <div class="col-md-auto">Date and Time</div>
+                        <div class="col-md-auto">{{ item['formDetails'].date_and_time}}</div>
+                      </div>
+                    </li>
+                    <li class="list-group-item">
+                      <div class="row mt-0 justify-content-around">
+                        <div class="col-md-auto">Cluster Engineer</div>
                         <div class="col-md-auto">{{ item['formDetails'].cluster_enginner }}</div>
                       </div>
                     </li>
                     <li class="list-group-item">
                       <div class="row mt-0 justify-content-around">
-                        <div class="col-md-auto">Field 1</div>
-                        <div class="col-md-auto">{{ item['formDetails'].date}}</div>
+                        <div class="col-md-auto">Checkman</div>
+                        <div class="col-md-auto">{{ item['formDetails'].check_man }}</div>
                       </div>
                     </li>
                     <li class="list-group-item">
                       <div class="row mt-0 justify-content-around">
-                        <div class="col-md-auto">Field 1</div>
-                        <div class="col-md-auto">{{ item.location_latitude }}</div>
+                        <div class="col-md-auto">Site With Single Gen</div>
+                        <div
+                          class="col-md-auto"
+                        >{{ item['formDetails'].site_with_single_generator }}</div>
+                      </div>
+                    </li>
+
+                    <li class="list-group-item">
+                      <div class="row mt-0 justify-content-around">
+                        <div class="col-md-auto">S/N Gen1</div>
+                        <div class="col-md-auto">{{ item['formDetails'].s_n_generator1 }}</div>
+                      </div>
+                    </li>
+
+                    <li class="list-group-item">
+                      <div class="row mt-0 justify-content-around">
+                        <div class="col-md-auto">S/N Gen2</div>
+                        <div class="col-md-auto">{{ item['formDetails'].s_n_generator2 }}</div>
                       </div>
                     </li>
                     <li class="list-group-item">
                       <div class="row mt-0 justify-content-around">
-                        <div class="col-md-auto">Field 1</div>
-                        <div class="col-md-auto">{{ item['formDetails'].location_latitude }}</div>
+                        <div class="col-md-auto">Gen1 Type</div>
+                        <div class="col-md-auto">{{ item['formDetails'].gen1_type }}</div>
                       </div>
                     </li>
                     <li class="list-group-item">
                       <div class="row mt-0 justify-content-around">
-                        <div class="col-md-auto">Field 1</div>
-                        <div class="col-md-auto">{{ item['formDetails'].site_ref }}</div>
+                        <div class="col-md-auto">Gen1 Size</div>
+                        <div class="col-md-auto">{{ item['formDetails'].gen1_size }}</div>
+                      </div>
+                    </li>
+
+                    <li class="list-group-item">
+                      <div class="row mt-0 justify-content-around">
+                        <div class="col-md-auto">Gen2 Type</div>
+                        <div class="col-md-auto">{{ item['formDetails'].gen2_type }}</div>
+                      </div>
+                    </li>
+                    <li class="list-group-item">
+                      <div class="row mt-0 justify-content-around">
+                        <div class="col-md-auto">Gen2 Size</div>
+                        <div class="col-md-auto">{{ item['formDetails'].gen2_size }}</div>
+                      </div>
+                    </li>
+
+                    <li class="list-group-item">
+                      <div class="row mt-0 justify-content-around">
+                        <div class="col-md-auto">Gen1 Status</div>
+                        <div class="col-md-auto">{{ item['formDetails'].gen1_status }}</div>
+                      </div>
+                    </li>
+
+                    <li class="list-group-item">
+                      <div class="row mt-0 justify-content-around">
+                        <div class="col-md-auto">Gen2 Status</div>
+                        <div class="col-md-auto">{{ item['formDetails'].gen2_status }}</div>
+                      </div>
+                    </li>
+
+                    <li class="list-group-item">
+                      <div class="row mt-0 justify-content-around">
+                        <div class="col-md-auto">Gen1 R.Hours</div>
+                        <div class="col-md-auto">{{ item['formDetails'].gen1_rhours }}</div>
+                      </div>
+                    </li>
+
+                    <li class="list-group-item">
+                      <div class="row mt-0 justify-content-around">
+                        <div class="col-md-auto">Gen2 R.Hours</div>
+                        <div class="col-md-auto">{{ item['formDetails'].gen2_rhours }}</div>
+                      </div>
+                    </li>
+
+                    <li class="list-group-item">
+                      <div class="row mt-0 justify-content-around">
+                        <div class="col-md-auto">Gen1 Oil</div>
+                        <div class="col-md-auto">{{ item['formBooleans'].gen1_oil }}</div>
+                      </div>
+                    </li>
+                    <li class="list-group-item">
+                      <div class="row mt-0 justify-content-around">
+                        <div class="col-md-auto">Gen1 Oil Hours</div>
+                        <div class="col-md-auto">{{ item['formDetails'].gen1_oil_hours }}</div>
+                      </div>
+                    </li>
+
+                    <li class="list-group-item">
+                      <div class="row mt-0 justify-content-around">
+                        <div class="col-md-auto">Gen2 Oil</div>
+                        <div class="col-md-auto">{{ item['formBooleans'].gen2_oil }}</div>
+                      </div>
+                    </li>
+                    <li class="list-group-item">
+                      <div class="row mt-0 justify-content-around">
+                        <div class="col-md-auto">Gen2 Oil Hours</div>
+                        <div class="col-md-auto">{{ item['formDetails'].gen2_oil_hours }}</div>
+                      </div>
+                    </li>
+
+                    <li class="list-group-item">
+                      <div class="row mt-0 justify-content-around">
+                        <div class="col-md-auto">Gen1 Oil Filter</div>
+                        <div class="col-md-auto">{{ item['formBooleans'].gen1_oil_filter }}</div>
+                      </div>
+                    </li>
+
+                    <li class="list-group-item">
+                      <div class="row mt-0 justify-content-around">
+                        <div class="col-md-auto">Gen2 Oil Filter</div>
+                        <div class="col-md-auto">{{ item['formBooleans'].gen2_oil_filter }}</div>
+                      </div>
+                    </li>
+
+                    <li class="list-group-item">
+                      <div class="row mt-0 justify-content-around">
+                        <div class="col-md-auto">Gen1 Fuel Filter</div>
+                        <div class="col-md-auto">{{ item['formBooleans'].gen1_oil_filter }}</div>
+                      </div>
+                    </li>
+
+                    <li class="list-group-item">
+                      <div class="row mt-0 justify-content-around">
+                        <div class="col-md-auto">Gen2 Fuel Filter</div>
+                        <div class="col-md-auto">{{ item['formBooleans'].gen2_oil_filter }}</div>
+                      </div>
+                    </li>
+
+                    <li class="list-group-item">
+                      <div class="row mt-0 justify-content-around">
+                        <div class="col-md-auto">Gen1 Lift Pump Filter</div>
+                        <div class="col-md-auto">{{ item['formBooleans'].gen1_lift_pump_filter }}</div>
+                      </div>
+                    </li>
+
+                    <li class="list-group-item">
+                      <div class="row mt-0 justify-content-around">
+                        <div class="col-md-auto">Gen2 Lift Pump Filter</div>
+                        <div class="col-md-auto">{{ item['formBooleans'].gen2_lift_pump_filter }}</div>
+                      </div>
+                    </li>
+
+                    <li class="list-group-item">
+                      <div class="row mt-0 justify-content-around">
+                        <div class="col-md-auto">Gen1 Air Filter</div>
+                        <div class="col-md-auto">{{ item['formBooleans'].gen1_air_filter }}</div>
+                      </div>
+                    </li>
+                    <li class="list-group-item">
+                      <div class="row mt-0 justify-content-around">
+                        <div class="col-md-auto">Gen2 Air Filter</div>
+                        <div class="col-md-auto">{{ item['formBooleans'].gen2_air_filter }}</div>
+                      </div>
+                    </li>
+
+                    <li class="list-group-item">
+                      <div class="row mt-0 justify-content-around">
+                        <div class="col-md-auto">Gen1 Clean</div>
+                        <div class="col-md-auto">{{ item['formBooleans'].gen1_clean }}</div>
+                      </div>
+                    </li>
+
+                    <li class="list-group-item">
+                      <div class="row mt-0 justify-content-around">
+                        <div class="col-md-auto">Gen2 Clean</div>
+                        <div class="col-md-auto">{{ item['formBooleans'].gen2_clean }}</div>
+                      </div>
+                    </li>
+
+                    <li class="list-group-item">
+                      <div class="row mt-0 justify-content-around">
+                        <div class="col-md-auto">Gen1 Radiator Clean</div>
+                        <div class="col-md-auto">{{ item['formBooleans'].gen1_radiator_clean }}</div>
+                      </div>
+                    </li>
+                    <li class="list-group-item">
+                      <div class="row mt-0 justify-content-around">
+                        <div class="col-md-auto">Gen2 Radiator Clean</div>
+                        <div class="col-md-auto">{{ item['formBooleans'].gen2_radiator_clean }}</div>
+                      </div>
+                    </li>
+
+                    <li class="list-group-item">
+                      <div class="row mt-0 justify-content-around">
+                        <div class="col-md-auto">Gen1 Sensors Status</div>
+                        <div class="col-md-auto">{{ item['formBooleans'].gen1_sensor_status }}</div>
+                      </div>
+                    </li>
+
+                    <li class="list-group-item">
+                      <div class="row mt-0 justify-content-around">
+                        <div class="col-md-auto">Gen2 Sensors Status</div>
+                        <div class="col-md-auto">{{ item['formBooleans'].gen2_sensor_status }}</div>
+                      </div>
+                    </li>
+
+                    <li class="list-group-item">
+                      <div class="row mt-0 justify-content-around">
+                        <div class="col-md-auto">Gen1 Charging Issue</div>
+                        <div class="col-md-auto">{{ item['formBooleans'].gen1_charging_issue }}</div>
+                      </div>
+                    </li>
+
+                    <li class="list-group-item">
+                      <div class="row mt-0 justify-content-around">
+                        <div class="col-md-auto">Gen2 Charging Issue</div>
+                        <div class="col-md-auto">{{ item['formBooleans'].gen2_charging_issue }}</div>
                       </div>
                     </li>
                   </ul>
@@ -298,9 +503,12 @@ export default {
         .get("http://127.0.0.1:8000/api/v1/users", config)
         .then(res => (this.users = res.data["data"]));
     },
-   async getFields() {
-       let result= await axios.get('http://127.0.0.1:8000/api/v1/forms_details', config)
-     this.data  =  result['data'].data
+    async getFields() {
+      let result = await axios.get(
+        "http://127.0.0.1:8000/api/v1/forms_details",
+        config
+      );
+      this.data = result["data"].data;
     },
     registration() {
       axios
