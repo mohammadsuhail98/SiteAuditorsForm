@@ -14,7 +14,7 @@
       </div>
     </div>
     <!-- Button trigger modal -->
-
+    
     <!-- Modal -->
     <div
       class="modal fade"
@@ -44,14 +44,6 @@
                   v-model="form.email"
                   class="form-control"
                   placeholder="User Email"
-                />
-              </div>
-              <div class="form-group">
-                <input
-                  type="phone"
-                  v-model="form.phone"
-                  class="form-control"
-                  placeholder="User Phone"
                 />
               </div>
               <div class="form-group">
@@ -119,7 +111,6 @@
                 <th>#</th>
                 <th>Name</th>
                 <th>Email</th>
-                <th>Phone</th>
                 <th>Password</th>
               </tr>
             </thead>
@@ -128,7 +119,6 @@
                 <td>{{ user.id }}</td>
                 <td>{{ user.name }}</td>
                 <td>{{ user.email }}</td>
-                <td>{{ user.phone }}</td>
                 <td>{{ user.show_password }}</td>
               </tr>
             </tbody>
@@ -226,24 +216,22 @@
             <thead>
               <tr>
                 <th>#</th>
-                <th>Field 1</th>
-                <th>Field 2</th>
-                <th>Field 3</th>
-                <th>Field 4</th>
-                <th>Field 5</th>
-                <th>Field 6</th>
+                <th>Site Ref</th>
+                <th>Site Type</th>
+                <th>Date And Time</th>
+                <th>Cluster Engineer</th>
+                <th>Checkman</th>
                 <th>Actions</th>
               </tr>
             </thead>
             <tbody>
               <tr v-for="(item, index) in data" :key="index">
                 <td>{{ index + 1 }}</td>
-                <td>{{ item['formDetails'].site_type }}</td>
-                <td>{{ item['formDetails'].cluster_enginner }}</td>
-                <td>{{ item['formDetails'].date }}</td>
-                <td>{{ item['formDetails'].location_latitude }}</td>
                 <td>{{ item['formDetails'].site_ref }}</td>
-                <td>{{ item['formDetails'].site_with_single_generator }}</td>
+                <td>{{ item['formDetails'].site_type }}</td>
+                <td>{{ item['formDetails'].date_and_time }}</td>
+                <td>{{ item['formDetails'].cluster_enginner }}</td>
+                <td>{{ item['formDetails'].check_man }}</td>
                 <td>
                   <button
                     type="button"
@@ -310,10 +298,9 @@ export default {
         .get("http://127.0.0.1:8000/api/v1/users", config)
         .then(res => (this.users = res.data["data"]));
     },
-    getFields() {
-      axios
-        .get("http://127.0.0.1:8000/api/v1/forms_details", config)
-        .then(res => (this.data = res.data["data"]));
+   async getFields() {
+       let result= await axios.get('http://127.0.0.1:8000/api/v1/forms_details', config)
+     this.data  =  result['data'].data
     },
     registration() {
       axios

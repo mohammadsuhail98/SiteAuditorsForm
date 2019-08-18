@@ -2085,18 +2085,6 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 var config = {
   headers: {
     Authorization: "Bearer ".concat(window.localStorage.getItem("token"))
@@ -2175,18 +2163,41 @@ var config = {
         return _this2.users = res.data["data"];
       });
     },
-    getFields: function getFields() {
+    getFields: function () {
+      var _getFields = _asyncToGenerator(
+      /*#__PURE__*/
+      _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee2() {
+        var result;
+        return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee2$(_context2) {
+          while (1) {
+            switch (_context2.prev = _context2.next) {
+              case 0:
+                _context2.next = 2;
+                return axios.get('http://127.0.0.1:8000/api/v1/forms_details', config);
+
+              case 2:
+                result = _context2.sent;
+                this.data = result['data'].data;
+
+              case 4:
+              case "end":
+                return _context2.stop();
+            }
+          }
+        }, _callee2, this);
+      }));
+
+      function getFields() {
+        return _getFields.apply(this, arguments);
+      }
+
+      return getFields;
+    }(),
+    registration: function registration() {
       var _this3 = this;
 
-      axios.get("http://127.0.0.1:8000/api/v1/forms_details", config).then(function (res) {
-        return _this3.data = res.data["data"];
-      });
-    },
-    registration: function registration() {
-      var _this4 = this;
-
       axios.post("http://127.0.0.1:8000/api/v1/registration", this.form, config).then(function (res) {
-        if (res.data["success"]) _this4.userRegistrationDone = true;
+        if (res.data["success"]) _this3.userRegistrationDone = true;
       });
     }
   }
@@ -6651,7 +6662,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n/* BASIC */\nhtml[data-v-6bdc8b8e] {\n  background-color: #56baed;\n}\nbody[data-v-6bdc8b8e] {\n  overflow-x: hidden !important;\n  font-family: \"Poppins\", sans-serif;\n  height: 100vh;\n}\na[data-v-6bdc8b8e] {\n  color: #92badd;\n  display: inline-block;\n  text-decoration: none;\n  font-weight: 400;\n}\nh2[data-v-6bdc8b8e] {\n  text-align: center;\n  font-size: 16px;\n  font-weight: 600;\n  text-transform: uppercase;\n  display: inline-block;\n  margin: 40px 8px 10px 8px;\n  color: #cccccc;\n}\n\n/* STRUCTURE */\n.wrapper[data-v-6bdc8b8e] {\n  display: flex;\n  align-items: center;\n  flex-direction: column;\n  justify-content: center;\n  width: 100%;\n  min-height: 100%;\n  padding: 20px;\n}\n#formContent[data-v-6bdc8b8e] {\n  border-radius: 10px 10px 10px 10px;\n  background: #fff;\n  padding: 30px;\n  width: 90%;\n  max-width: 450px;\n  position: relative;\n  padding: 0px;\n  box-shadow: 0 30px 60px 0 rgba(0, 0, 0, 0.3);\n  text-align: center;\n  margin-top: 50%;\n}\n#formFooter[data-v-6bdc8b8e] {\n  background-color: #f6f6f6;\n  border-top: 1px solid #dce8f1;\n  padding: 25px;\n  text-align: center;\n  border-radius: 0 0 10px 10px;\n}\n\n/* TABS */\nh2.inactive[data-v-6bdc8b8e] {\n  color: #cccccc;\n}\nh2.active[data-v-6bdc8b8e] {\n  color: #0d0d0d;\n  border-bottom: 2px solid #5fbae9;\n}\n\n/* FORM TYPOGRAPHY*/\ninput[type=\"button\"][data-v-6bdc8b8e],\ninput[type=\"submit\"][data-v-6bdc8b8e],\nbutton[data-v-6bdc8b8e],\ninput[type=\"reset\"][data-v-6bdc8b8e] {\n  background-color: #f36f24;\n  border: none;\n  color: white;\n  padding: 15px 80px;\n  text-align: center;\n  text-decoration: none;\n  display: inline-block;\n  text-transform: uppercase;\n  font-size: 13px;\n  box-shadow: 0 10px 30px 0 rgba(95, 186, 233, 0.4);\n  border-radius: 5px 5px 5px 5px;\n  margin: 5px 20px 40px 20px;\n  transition: all 0.3s ease-in-out;\n}\ninput[type=\"button\"][data-v-6bdc8b8e]:hover,\ninput[type=\"submit\"][data-v-6bdc8b8e],\nbutton[data-v-6bdc8b8e]:hover,\ninput[type=\"reset\"][data-v-6bdc8b8e]:hover {\n  background-color: #f36f24;\n}\ninput[type=\"button\"][data-v-6bdc8b8e]:active,\ninput[type=\"submit\"][data-v-6bdc8b8e],\nbutton[data-v-6bdc8b8e]:active,\ninput[type=\"reset\"][data-v-6bdc8b8e]:active {\n  transform: scale(0.95);\n}\ninput[type=\"password\"][data-v-6bdc8b8e],\ninput[type=\"email\"][data-v-6bdc8b8e] {\n  background-color: #f6f6f6;\n  border: none;\n  color: #0d0d0d;\n  padding: 15px 32px;\n  text-align: center;\n  text-decoration: none;\n  display: inline-block;\n  font-size: 16px;\n  margin: 5px;\n  width: 85%;\n  border: 2px solid #f6f6f6;\n  transition: all 0.5s ease-in-out;\n  border-radius: 5px 5px 5px 5px;\n}\ninput[type=\"text\"][data-v-6bdc8b8e]:focus {\n  background-color: #fff;\n  border-bottom: 2px solid #5fbae9;\n}\ninput[type=\"text\"][data-v-6bdc8b8e]:placeholder {\n  color: #cccccc;\n}\n\n/* ANIMATIONS */\n\n/* Simple CSS3 Fade-in-down Animation */\n.fadeInDown[data-v-6bdc8b8e] {\n  -webkit-animation-name: fadeInDown-data-v-6bdc8b8e;\n  animation-name: fadeInDown-data-v-6bdc8b8e;\n  -webkit-animation-duration: 1s;\n  animation-duration: 1s;\n  -webkit-animation-fill-mode: both;\n  animation-fill-mode: both;\n}\n@-webkit-keyframes fadeInDown-data-v-6bdc8b8e {\n0% {\n    opacity: 0;\n    transform: translate3d(0, -100%, 0);\n}\n100% {\n    opacity: 1;\n    transform: none;\n}\n}\n@keyframes fadeInDown-data-v-6bdc8b8e {\n0% {\n    opacity: 0;\n    transform: translate3d(0, -100%, 0);\n}\n100% {\n    opacity: 1;\n    transform: none;\n}\n}\n\n/* Simple CSS3 Fade-in Animation */\n@-webkit-keyframes fadeIn-data-v-6bdc8b8e {\nfrom {\n    opacity: 0;\n}\nto {\n    opacity: 1;\n}\n}\n@keyframes fadeIn-data-v-6bdc8b8e {\nfrom {\n    opacity: 0;\n}\nto {\n    opacity: 1;\n}\n}\n.fadeIn[data-v-6bdc8b8e] {\n  opacity: 0;\n  -webkit-animation: fadeIn-data-v-6bdc8b8e ease-in 1;\n  animation: fadeIn-data-v-6bdc8b8e ease-in 1;\n\n  -webkit-animation-fill-mode: forwards;\n  animation-fill-mode: forwards;\n\n  -webkit-animation-duration: 1s;\n  animation-duration: 1s;\n}\n.fadeIn.first[data-v-6bdc8b8e] {\n  -webkit-animation-delay: 0.4s;\n  animation-delay: 0.4s;\n}\n.fadeIn.second[data-v-6bdc8b8e] {\n  -webkit-animation-delay: 0.6s;\n  animation-delay: 0.6s;\n}\n.fadeIn.third[data-v-6bdc8b8e] {\n  -webkit-animation-delay: 0.8s;\n  animation-delay: 0.8s;\n}\n.fadeIn.fourth[data-v-6bdc8b8e] {\n  -webkit-animation-delay: 1s;\n  animation-delay: 1s;\n}\n\n/* Simple CSS3 Fade-in Animation */\n.underlineHover[data-v-6bdc8b8e]:after {\n  display: block;\n  left: 0;\n  bottom: -10px;\n  width: 0;\n  height: 2px;\n  background-color: #56baed;\n  content: \"\";\n  transition: width 0.2s;\n}\n.underlineHover[data-v-6bdc8b8e]:hover {\n  color: #0d0d0d;\n}\n.underlineHover[data-v-6bdc8b8e]:hover:after {\n  width: 100%;\n}\n\n/* OTHERS */\n*[data-v-6bdc8b8e]:focus {\n  outline: none;\n}\n#icon[data-v-6bdc8b8e] {\n  width: 60%;\n}\n", ""]);
+exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n/* BASIC */\nhtml[data-v-6bdc8b8e] {\n  background-color: #56baed;\n}\nbody[data-v-6bdc8b8e] {\n  overflow-x: hidden !important;\n  font-family: \"Poppins\", sans-serif;\n  height: 100vh;\n}\na[data-v-6bdc8b8e] {\n  color: #92badd;\n  display: inline-block;\n  text-decoration: none;\n  font-weight: 400;\n}\nh2[data-v-6bdc8b8e] {\n  text-align: center;\n  font-size: 16px;\n  font-weight: 600;\n  text-transform: uppercase;\n  display: inline-block;\n  margin: 40px 8px 10px 8px;\n  color: #cccccc;\n}\n\n/* STRUCTURE */\n.wrapper[data-v-6bdc8b8e] {\n  display: flex;\n  align-items: center;\n  flex-direction: column;\n  justify-content: center;\n  width: 100%;\n  min-height: 100%;\n  padding: 20px;\n}\n#formContent[data-v-6bdc8b8e] {\n  border-radius: 10px 10px 10px 10px;\n  background: #fff;\n  padding: 30px;\n  width: 90%;\n  max-width: 450px;\n  position: relative;\n  padding: 0px;\n  box-shadow: 0 30px 60px 0 rgba(0, 0, 0, 0.3);\n  text-align: center;\n  margin-top: 20%;\n}\n#formFooter[data-v-6bdc8b8e] {\n  background-color: #f6f6f6;\n  border-top: 1px solid #dce8f1;\n  padding: 25px;\n  text-align: center;\n  border-radius: 0 0 10px 10px;\n}\n\n/* TABS */\nh2.inactive[data-v-6bdc8b8e] {\n  color: #cccccc;\n}\nh2.active[data-v-6bdc8b8e] {\n  color: #0d0d0d;\n  border-bottom: 2px solid #5fbae9;\n}\n\n/* FORM TYPOGRAPHY*/\ninput[type=\"button\"][data-v-6bdc8b8e],\ninput[type=\"submit\"][data-v-6bdc8b8e],\nbutton[data-v-6bdc8b8e],\ninput[type=\"reset\"][data-v-6bdc8b8e] {\n  background-color: #f36f24;\n  border: none;\n  color: white;\n  padding: 15px 80px;\n  text-align: center;\n  text-decoration: none;\n  display: inline-block;\n  text-transform: uppercase;\n  font-size: 13px;\n  box-shadow: 0 10px 30px 0 rgba(95, 186, 233, 0.4);\n  border-radius: 5px 5px 5px 5px;\n  margin: 5px 20px 40px 20px;\n  transition: all 0.3s ease-in-out;\n}\ninput[type=\"button\"][data-v-6bdc8b8e]:hover,\ninput[type=\"submit\"][data-v-6bdc8b8e],\nbutton[data-v-6bdc8b8e]:hover,\ninput[type=\"reset\"][data-v-6bdc8b8e]:hover {\n  background-color: #f36f24;\n}\ninput[type=\"button\"][data-v-6bdc8b8e]:active,\ninput[type=\"submit\"][data-v-6bdc8b8e],\nbutton[data-v-6bdc8b8e]:active,\ninput[type=\"reset\"][data-v-6bdc8b8e]:active {\n  transform: scale(0.95);\n}\ninput[type=\"password\"][data-v-6bdc8b8e],\ninput[type=\"email\"][data-v-6bdc8b8e] {\n  background-color: #f6f6f6;\n  border: none;\n  color: #0d0d0d;\n  padding: 15px 32px;\n  text-align: center;\n  text-decoration: none;\n  display: inline-block;\n  font-size: 16px;\n  margin: 5px;\n  width: 85%;\n  border: 2px solid #f6f6f6;\n  transition: all 0.5s ease-in-out;\n  border-radius: 5px 5px 5px 5px;\n}\ninput[type=\"text\"][data-v-6bdc8b8e]:focus {\n  background-color: #fff;\n  border-bottom: 2px solid #5fbae9;\n}\ninput[type=\"text\"][data-v-6bdc8b8e]:placeholder {\n  color: #cccccc;\n}\n\n/* ANIMATIONS */\n\n/* Simple CSS3 Fade-in-down Animation */\n.fadeInDown[data-v-6bdc8b8e] {\n  -webkit-animation-name: fadeInDown-data-v-6bdc8b8e;\n  animation-name: fadeInDown-data-v-6bdc8b8e;\n  -webkit-animation-duration: 1s;\n  animation-duration: 1s;\n  -webkit-animation-fill-mode: both;\n  animation-fill-mode: both;\n}\n@-webkit-keyframes fadeInDown-data-v-6bdc8b8e {\n0% {\n    opacity: 0;\n    transform: translate3d(0, -100%, 0);\n}\n100% {\n    opacity: 1;\n    transform: none;\n}\n}\n@keyframes fadeInDown-data-v-6bdc8b8e {\n0% {\n    opacity: 0;\n    transform: translate3d(0, -100%, 0);\n}\n100% {\n    opacity: 1;\n    transform: none;\n}\n}\n\n/* Simple CSS3 Fade-in Animation */\n@-webkit-keyframes fadeIn-data-v-6bdc8b8e {\nfrom {\n    opacity: 0;\n}\nto {\n    opacity: 1;\n}\n}\n@keyframes fadeIn-data-v-6bdc8b8e {\nfrom {\n    opacity: 0;\n}\nto {\n    opacity: 1;\n}\n}\n.fadeIn[data-v-6bdc8b8e] {\n  opacity: 0;\n  -webkit-animation: fadeIn-data-v-6bdc8b8e ease-in 1;\n  animation: fadeIn-data-v-6bdc8b8e ease-in 1;\n\n  -webkit-animation-fill-mode: forwards;\n  animation-fill-mode: forwards;\n\n  -webkit-animation-duration: 1s;\n  animation-duration: 1s;\n}\n.fadeIn.first[data-v-6bdc8b8e] {\n  -webkit-animation-delay: 0.4s;\n  animation-delay: 0.4s;\n}\n.fadeIn.second[data-v-6bdc8b8e] {\n  -webkit-animation-delay: 0.6s;\n  animation-delay: 0.6s;\n}\n.fadeIn.third[data-v-6bdc8b8e] {\n  -webkit-animation-delay: 0.8s;\n  animation-delay: 0.8s;\n}\n.fadeIn.fourth[data-v-6bdc8b8e] {\n  -webkit-animation-delay: 1s;\n  animation-delay: 1s;\n}\n\n/* Simple CSS3 Fade-in Animation */\n.underlineHover[data-v-6bdc8b8e]:after {\n  display: block;\n  left: 0;\n  bottom: -10px;\n  width: 0;\n  height: 2px;\n  background-color: #56baed;\n  content: \"\";\n  transition: width 0.2s;\n}\n.underlineHover[data-v-6bdc8b8e]:hover {\n  color: #0d0d0d;\n}\n.underlineHover[data-v-6bdc8b8e]:hover:after {\n  width: 100%;\n}\n\n/* OTHERS */\n*[data-v-6bdc8b8e]:focus {\n  outline: none;\n}\n#icon[data-v-6bdc8b8e] {\n  width: 60%;\n}\n", ""]);
 
 // exports
 
@@ -39135,37 +39146,6 @@ var render = function() {
                                 {
                                   name: "model",
                                   rawName: "v-model",
-                                  value: _vm.form.phone,
-                                  expression: "form.phone"
-                                }
-                              ],
-                              staticClass: "form-control",
-                              attrs: {
-                                type: "phone",
-                                placeholder: "User Phone"
-                              },
-                              domProps: { value: _vm.form.phone },
-                              on: {
-                                input: function($event) {
-                                  if ($event.target.composing) {
-                                    return
-                                  }
-                                  _vm.$set(
-                                    _vm.form,
-                                    "phone",
-                                    $event.target.value
-                                  )
-                                }
-                              }
-                            })
-                          ]),
-                          _vm._v(" "),
-                          _c("div", { staticClass: "form-group" }, [
-                            _c("input", {
-                              directives: [
-                                {
-                                  name: "model",
-                                  rawName: "v-model",
                                   value: _vm.form.password,
                                   expression: "form.password"
                                 }
@@ -39254,8 +39234,6 @@ var render = function() {
                             _c("td", [_vm._v(_vm._s(user.name))]),
                             _vm._v(" "),
                             _c("td", [_vm._v(_vm._s(user.email))]),
-                            _vm._v(" "),
-                            _c("td", [_vm._v(_vm._s(user.phone))]),
                             _vm._v(" "),
                             _c("td", [_vm._v(_vm._s(user.show_password))])
                           ])
@@ -39510,7 +39488,15 @@ var render = function() {
                             _c("td", [_vm._v(_vm._s(index + 1))]),
                             _vm._v(" "),
                             _c("td", [
+                              _vm._v(_vm._s(item["formDetails"].site_ref))
+                            ]),
+                            _vm._v(" "),
+                            _c("td", [
                               _vm._v(_vm._s(item["formDetails"].site_type))
+                            ]),
+                            _vm._v(" "),
+                            _c("td", [
+                              _vm._v(_vm._s(item["formDetails"].date_and_time))
                             ]),
                             _vm._v(" "),
                             _c("td", [
@@ -39520,25 +39506,7 @@ var render = function() {
                             ]),
                             _vm._v(" "),
                             _c("td", [
-                              _vm._v(_vm._s(item["formDetails"].date))
-                            ]),
-                            _vm._v(" "),
-                            _c("td", [
-                              _vm._v(
-                                _vm._s(item["formDetails"].location_latitude)
-                              )
-                            ]),
-                            _vm._v(" "),
-                            _c("td", [
-                              _vm._v(_vm._s(item["formDetails"].site_ref))
-                            ]),
-                            _vm._v(" "),
-                            _c("td", [
-                              _vm._v(
-                                _vm._s(
-                                  item["formDetails"].site_with_single_generator
-                                )
-                              )
+                              _vm._v(_vm._s(item["formDetails"].check_man))
                             ]),
                             _vm._v(" "),
                             _c("td", [
@@ -39670,8 +39638,6 @@ var staticRenderFns = [
         _vm._v(" "),
         _c("th", [_vm._v("Email")]),
         _vm._v(" "),
-        _c("th", [_vm._v("Phone")]),
-        _vm._v(" "),
         _c("th", [_vm._v("Password")])
       ])
     ])
@@ -39749,17 +39715,15 @@ var staticRenderFns = [
       _c("tr", [
         _c("th", [_vm._v("#")]),
         _vm._v(" "),
-        _c("th", [_vm._v("Field 1")]),
+        _c("th", [_vm._v("Site Ref")]),
         _vm._v(" "),
-        _c("th", [_vm._v("Field 2")]),
+        _c("th", [_vm._v("Site Type")]),
         _vm._v(" "),
-        _c("th", [_vm._v("Field 3")]),
+        _c("th", [_vm._v("Date And Time")]),
         _vm._v(" "),
-        _c("th", [_vm._v("Field 4")]),
+        _c("th", [_vm._v("Cluster Engineer")]),
         _vm._v(" "),
-        _c("th", [_vm._v("Field 5")]),
-        _vm._v(" "),
-        _c("th", [_vm._v("Field 6")]),
+        _c("th", [_vm._v("Checkman")]),
         _vm._v(" "),
         _c("th", [_vm._v("Actions")])
       ])
