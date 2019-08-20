@@ -409,6 +409,79 @@
                         <div class="col-md-auto">{{ item['formBooleans'].gen2_charging_issue }}</div>
                       </div>
                     </li>
+
+
+                    <li class="list-group-item">
+                      <div class="row mt-0 justify-content-around">
+                        <div class="col-md-auto">Engine Smoke Ok</div>
+                        <div class="col-md-auto">{{ item['formBooleans'].engine_smoke_ok }}</div>
+                      </div>
+                    </li>
+
+                                      <li class="list-group-item">
+                      <div class="row mt-0 justify-content-around">
+                        <div class="col-md-auto">Engine Smoke White</div>
+                        <div class="col-md-auto">{{ item['formBooleans'].engine_smoke_white }}</div>
+                      </div>
+                    </li>
+
+                  <li class="list-group-item">
+                      <div class="row mt-0 justify-content-around">
+                        <div class="col-md-auto">Engine Smoke Blac;</div>
+                        <div class="col-md-auto">{{ item['formBooleans'].engine_smoke_black }}</div>
+                      </div>
+                    </li>
+
+                                      <li class="list-group-item">
+                      <div class="row mt-0 justify-content-around">
+                        <div class="col-md-auto">Oil Leakage Ok</div>
+                        <div class="col-md-auto">{{ item['formBooleans'].oil_leakage_ok }}</div>
+                      </div>
+                    </li>
+
+                                      <li class="list-group-item">
+                      <div class="row mt-0 justify-content-around">
+                        <div class="col-md-auto">Oil Leakage Filter</div>
+                        <div class="col-md-auto">{{ item['formBooleans'].oil_filter }}</div>
+                      </div>
+                    </li>
+                                  <li class="list-group-item">
+                      <div class="row mt-0 justify-content-around">
+                        <div class="col-md-auto">Oil Leakage Case</div>
+                        <div class="col-md-auto">{{ item['formBooleans'].oil_case }}</div>
+                      </div>
+                    </li>
+
+                                   <li class="list-group-item">
+                      <div class="row mt-0 justify-content-around">
+                        <div class="col-md-auto">Oil Leakage Pump</div>
+                        <div class="col-md-auto">{{ item['formBooleans'].oil_pump }}</div>
+                      </div>
+                    </li>
+
+                                   <li class="list-group-item">
+                      <div class="row mt-0 justify-content-around">
+                        <div class="col-md-auto">Oil Leakage drain</div>
+                        <div class="col-md-auto">{{ item['formBooleans'].oil_drain }}</div>
+                      </div>
+                    </li>
+                                   <li class="list-group-item">
+                      <div class="row mt-0 justify-content-around">
+                        <div class="col-md-auto">Oil Valve Cover</div>
+                        <div class="col-md-auto">{{ item['formBooleans'].oil_valve_cover }}</div>
+                      </div>
+                    </li>
+
+                                                       <li class="list-group-item">
+                      <div class="row mt-0 justify-content-around">
+                        <div class="col-md-auto">Oil Leakage Seal</div>
+                        <div class="col-md-auto">{{ item['formBooleans'].oil_seal }}</div>
+                      </div>
+                    </li>
+
+
+
+
                   </ul>
                 </div>
                 <div class="modal-footer">

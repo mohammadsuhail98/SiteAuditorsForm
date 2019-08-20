@@ -2290,6 +2290,79 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 var config = {
   headers: {
     Authorization: "Bearer ".concat(window.localStorage.getItem("token"))
@@ -40564,6 +40637,306 @@ var render = function() {
                                               _vm._s(
                                                 _vm.item["formBooleans"]
                                                   .gen2_charging_issue
+                                              )
+                                            )
+                                          ]
+                                        )
+                                      ]
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("li", { staticClass: "list-group-item" }, [
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "row mt-0 justify-content-around"
+                                      },
+                                      [
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [_vm._v("Engine Smoke Ok")]
+                                        ),
+                                        _vm._v(" "),
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [
+                                            _vm._v(
+                                              _vm._s(
+                                                _vm.item["formBooleans"]
+                                                  .engine_smoke_ok
+                                              )
+                                            )
+                                          ]
+                                        )
+                                      ]
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("li", { staticClass: "list-group-item" }, [
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "row mt-0 justify-content-around"
+                                      },
+                                      [
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [_vm._v("Engine Smoke White")]
+                                        ),
+                                        _vm._v(" "),
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [
+                                            _vm._v(
+                                              _vm._s(
+                                                _vm.item["formBooleans"]
+                                                  .engine_smoke_white
+                                              )
+                                            )
+                                          ]
+                                        )
+                                      ]
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("li", { staticClass: "list-group-item" }, [
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "row mt-0 justify-content-around"
+                                      },
+                                      [
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [_vm._v("Engine Smoke Blac;")]
+                                        ),
+                                        _vm._v(" "),
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [
+                                            _vm._v(
+                                              _vm._s(
+                                                _vm.item["formBooleans"]
+                                                  .engine_smoke_black
+                                              )
+                                            )
+                                          ]
+                                        )
+                                      ]
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("li", { staticClass: "list-group-item" }, [
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "row mt-0 justify-content-around"
+                                      },
+                                      [
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [_vm._v("Oil Leakage Ok")]
+                                        ),
+                                        _vm._v(" "),
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [
+                                            _vm._v(
+                                              _vm._s(
+                                                _vm.item["formBooleans"]
+                                                  .oil_leakage_ok
+                                              )
+                                            )
+                                          ]
+                                        )
+                                      ]
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("li", { staticClass: "list-group-item" }, [
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "row mt-0 justify-content-around"
+                                      },
+                                      [
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [_vm._v("Oil Leakage Filter")]
+                                        ),
+                                        _vm._v(" "),
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [
+                                            _vm._v(
+                                              _vm._s(
+                                                _vm.item["formBooleans"]
+                                                  .oil_filter
+                                              )
+                                            )
+                                          ]
+                                        )
+                                      ]
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("li", { staticClass: "list-group-item" }, [
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "row mt-0 justify-content-around"
+                                      },
+                                      [
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [_vm._v("Oil Leakage Case")]
+                                        ),
+                                        _vm._v(" "),
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [
+                                            _vm._v(
+                                              _vm._s(
+                                                _vm.item["formBooleans"]
+                                                  .oil_case
+                                              )
+                                            )
+                                          ]
+                                        )
+                                      ]
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("li", { staticClass: "list-group-item" }, [
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "row mt-0 justify-content-around"
+                                      },
+                                      [
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [_vm._v("Oil Leakage Pump")]
+                                        ),
+                                        _vm._v(" "),
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [
+                                            _vm._v(
+                                              _vm._s(
+                                                _vm.item["formBooleans"]
+                                                  .oil_pump
+                                              )
+                                            )
+                                          ]
+                                        )
+                                      ]
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("li", { staticClass: "list-group-item" }, [
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "row mt-0 justify-content-around"
+                                      },
+                                      [
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [_vm._v("Oil Leakage drain")]
+                                        ),
+                                        _vm._v(" "),
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [
+                                            _vm._v(
+                                              _vm._s(
+                                                _vm.item["formBooleans"]
+                                                  .oil_drain
+                                              )
+                                            )
+                                          ]
+                                        )
+                                      ]
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("li", { staticClass: "list-group-item" }, [
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "row mt-0 justify-content-around"
+                                      },
+                                      [
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [_vm._v("Oil Valve Cover")]
+                                        ),
+                                        _vm._v(" "),
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [
+                                            _vm._v(
+                                              _vm._s(
+                                                _vm.item["formBooleans"]
+                                                  .oil_valve_cover
+                                              )
+                                            )
+                                          ]
+                                        )
+                                      ]
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("li", { staticClass: "list-group-item" }, [
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "row mt-0 justify-content-around"
+                                      },
+                                      [
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [_vm._v("Oil Leakage Seal")]
+                                        ),
+                                        _vm._v(" "),
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [
+                                            _vm._v(
+                                              _vm._s(
+                                                _vm.item["formBooleans"]
+                                                  .oil_seal
                                               )
                                             )
                                           ]
