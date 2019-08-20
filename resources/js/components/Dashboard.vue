@@ -478,6 +478,104 @@
                         <div class="col-md-auto">{{ item['formBooleans'].oil_seal }}</div>
                       </div>
                     </li>
+                                                    <li class="list-group-item">
+                      <div class="row mt-0 justify-content-around">
+                        <div class="col-md-auto">Water Leakage Ok</div>
+                        <div class="col-md-auto">{{ item['formBooleans'].water_leakage_ok }}</div>
+                      </div>
+                    </li>
+                    
+                                                 <li class="list-group-item">
+                      <div class="row mt-0 justify-content-around">
+                        <div class="col-md-auto">Water Leakage Radiator</div>
+                        <div class="col-md-auto">{{ item['formBooleans'].water_leakage_radiator }}</div>
+                      </div>
+                    </li>
+                                       <li class="list-group-item">
+                      <div class="row mt-0 justify-content-around">
+                        <div class="col-md-auto">Water Leakage Fils</div>
+                        <div class="col-md-auto">{{ item['formBooleans'].water_leakage_fils }}</div>
+                      </div>
+                    </li>
+                    
+                                                           <li class="list-group-item">
+                      <div class="row mt-0 justify-content-around">
+                        <div class="col-md-auto">Water Leakage Radiator Join</div>
+                        <div class="col-md-auto">{{ item['formBooleans'].water_radiator_join }}</div>
+                      </div>
+                    </li>
+
+                                       <li class="list-group-item">
+                      <div class="row mt-0 justify-content-around">
+                        <div class="col-md-auto">Water Leakage Pump</div>
+                        <div class="col-md-auto">{{ item['formBooleans'].water_pump }}</div>
+                      </div>
+                    </li>
+
+                                  <li class="list-group-item">
+                      <div class="row mt-0 justify-content-around">
+                        <div class="col-md-auto">Fuel Leakage Ok</div>
+                        <div class="col-md-auto">{{ item['formBooleans'].fuel_leakage_ok }}</div>
+                      </div>
+                    </li>
+
+
+                                  <li class="list-group-item">
+                      <div class="row mt-0 justify-content-around">
+                        <div class="col-md-auto">Fuel Leakage Nozzle</div>
+                        <div class="col-md-auto">{{ item['formBooleans'].fuel_nozzle }}</div>
+                      </div>
+                    </li>
+
+
+                                  <li class="list-group-item">
+                      <div class="row mt-0 justify-content-around">
+                        <div class="col-md-auto">Fuel Leakage Pipe Valve</div>
+                        <div class="col-md-auto">{{ item['formBooleans'].fuel_pipe_valve }}</div>
+                      </div>
+                    </li>
+
+                                  <li class="list-group-item">
+                      <div class="row mt-0 justify-content-around">
+                        <div class="col-md-auto">Fuel Leakage Tube</div>
+                        <div class="col-md-auto">{{ item['formBooleans'].fuel_tube }}</div>
+                      </div>
+                    </li>
+
+                             <li class="list-group-item">
+                      <div class="row mt-0 justify-content-around">
+                        <div class="col-md-auto">Fuel Leakage Filter</div>
+                        <div class="col-md-auto">{{ item['formBooleans'].fuel_filter }}</div>
+                      </div>
+                    </li>
+
+                             <li class="list-group-item">
+                      <div class="row mt-0 justify-content-around">
+                        <div class="col-md-auto">Fuel Tank CM</div>
+                        <div class="col-md-auto">{{ item['formDetails'].fuel_tank_cm }}</div>
+                      </div>
+                    </li>
+
+                                                 <li class="list-group-item">
+                      <div class="row mt-0 justify-content-around">
+                        <div class="col-md-auto">Fuel Tank Piping</div>
+                        <div class="col-md-auto">{{ item['formBooleans'].fuel_tank_piping }}</div>
+                      </div>
+                    </li>
+
+                                            <li class="list-group-item">
+                      <div class="row mt-0 justify-content-around">
+                        <div class="col-md-auto">Fuel Tank Pipe Valves</div>
+                        <div class="col-md-auto">{{ item['formBooleans'].fuel_tank_pipe_valves }}</div>
+                      </div>
+                    </li>
+
+                                                                <li class="list-group-item">
+                      <div class="row mt-0 justify-content-around">
+                        <div class="col-md-auto">Fuel Tank Drain</div>
+                        <div class="col-md-auto">{{ item['formBooleans'].fuel_tank_drain }}</div>
+                      </div>
+                    </li>
 
 
 

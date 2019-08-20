@@ -47,6 +47,7 @@ class CreateFormDetailsTable extends Migration
             $table->string('ats_board_status')->default('string here');
             $table->string('plc_board_status')->default('string here');
             $table->string('rbs_door_sensor')->default('string here');
+            $table->string('rbs_dummy')->default('string here');
             $table->string('clu_status')->default('string here');
             $table->string('gst_status')->default('string here');
             $table->string('fire_extiguisher_status')->default('string here');

@@ -53,6 +53,8 @@ class CreateFormBooleansTable extends Migration
             $table->boolean('oil_seal')->default(false);
             $table->boolean('water_leakage_ok')->default(false);
             $table->boolean('water_radiator_join')->default(false);
+            $table->boolean('water_leakage_radiator')->default(false);
+            $table->boolean('water_leakage_fils')->default(false);
             $table->boolean('water_pump')->default(false);
             $table->boolean('fuel_leakage_ok')->default(false);
             $table->boolean('fuel_nozzle')->default(false);
@@ -73,6 +75,8 @@ class CreateFormBooleansTable extends Migration
             $table->boolean('site_clean')->default(false);
             $table->boolean('alarm_door_sensor_ok')->default(false);
             $table->boolean('alarm_door_sensor_not_ok')->default(false);
+            $table->boolean('alarm_generator_ok')->default(false);
+            $table->boolean('alarm_generator_not_ok')->default(false);
             $table->boolean('external_alarm_status_ok')->default(false);
             $table->boolean('external_alarm_status_not_ok')->default(false);
             $table->bigInteger('form_details_id');
