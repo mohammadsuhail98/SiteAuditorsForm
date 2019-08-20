@@ -410,7 +410,6 @@
                       </div>
                     </li>
 
-
                     <li class="list-group-item">
                       <div class="row mt-0 justify-content-around">
                         <div class="col-md-auto">Engine Smoke Ok</div>
@@ -418,165 +417,443 @@
                       </div>
                     </li>
 
-                                      <li class="list-group-item">
+                    <li class="list-group-item">
                       <div class="row mt-0 justify-content-around">
                         <div class="col-md-auto">Engine Smoke White</div>
                         <div class="col-md-auto">{{ item['formBooleans'].engine_smoke_white }}</div>
                       </div>
                     </li>
 
-                  <li class="list-group-item">
+                    <li class="list-group-item">
                       <div class="row mt-0 justify-content-around">
                         <div class="col-md-auto">Engine Smoke Blac;</div>
                         <div class="col-md-auto">{{ item['formBooleans'].engine_smoke_black }}</div>
                       </div>
                     </li>
 
-                                      <li class="list-group-item">
+                    <li class="list-group-item">
                       <div class="row mt-0 justify-content-around">
                         <div class="col-md-auto">Oil Leakage Ok</div>
                         <div class="col-md-auto">{{ item['formBooleans'].oil_leakage_ok }}</div>
                       </div>
                     </li>
 
-                                      <li class="list-group-item">
+                    <li class="list-group-item">
                       <div class="row mt-0 justify-content-around">
                         <div class="col-md-auto">Oil Leakage Filter</div>
                         <div class="col-md-auto">{{ item['formBooleans'].oil_filter }}</div>
                       </div>
                     </li>
-                                  <li class="list-group-item">
+                    <li class="list-group-item">
                       <div class="row mt-0 justify-content-around">
                         <div class="col-md-auto">Oil Leakage Case</div>
                         <div class="col-md-auto">{{ item['formBooleans'].oil_case }}</div>
                       </div>
                     </li>
 
-                                   <li class="list-group-item">
+                    <li class="list-group-item">
                       <div class="row mt-0 justify-content-around">
                         <div class="col-md-auto">Oil Leakage Pump</div>
                         <div class="col-md-auto">{{ item['formBooleans'].oil_pump }}</div>
                       </div>
                     </li>
 
-                                   <li class="list-group-item">
+                    <li class="list-group-item">
                       <div class="row mt-0 justify-content-around">
                         <div class="col-md-auto">Oil Leakage drain</div>
                         <div class="col-md-auto">{{ item['formBooleans'].oil_drain }}</div>
                       </div>
                     </li>
-                                   <li class="list-group-item">
+                    <li class="list-group-item">
                       <div class="row mt-0 justify-content-around">
                         <div class="col-md-auto">Oil Valve Cover</div>
                         <div class="col-md-auto">{{ item['formBooleans'].oil_valve_cover }}</div>
                       </div>
                     </li>
 
-                                                       <li class="list-group-item">
+                    <li class="list-group-item">
                       <div class="row mt-0 justify-content-around">
                         <div class="col-md-auto">Oil Leakage Seal</div>
                         <div class="col-md-auto">{{ item['formBooleans'].oil_seal }}</div>
                       </div>
                     </li>
-                                                    <li class="list-group-item">
+                    <li class="list-group-item">
                       <div class="row mt-0 justify-content-around">
                         <div class="col-md-auto">Water Leakage Ok</div>
                         <div class="col-md-auto">{{ item['formBooleans'].water_leakage_ok }}</div>
                       </div>
                     </li>
-                    
-                                                 <li class="list-group-item">
+
+                    <li class="list-group-item">
                       <div class="row mt-0 justify-content-around">
                         <div class="col-md-auto">Water Leakage Radiator</div>
                         <div class="col-md-auto">{{ item['formBooleans'].water_leakage_radiator }}</div>
                       </div>
                     </li>
-                                       <li class="list-group-item">
+                    <li class="list-group-item">
                       <div class="row mt-0 justify-content-around">
                         <div class="col-md-auto">Water Leakage Fils</div>
                         <div class="col-md-auto">{{ item['formBooleans'].water_leakage_fils }}</div>
                       </div>
                     </li>
-                    
-                                                           <li class="list-group-item">
+
+                    <li class="list-group-item">
                       <div class="row mt-0 justify-content-around">
                         <div class="col-md-auto">Water Leakage Radiator Join</div>
                         <div class="col-md-auto">{{ item['formBooleans'].water_radiator_join }}</div>
                       </div>
                     </li>
 
-                                       <li class="list-group-item">
+                    <li class="list-group-item">
                       <div class="row mt-0 justify-content-around">
                         <div class="col-md-auto">Water Leakage Pump</div>
                         <div class="col-md-auto">{{ item['formBooleans'].water_pump }}</div>
                       </div>
                     </li>
 
-                                  <li class="list-group-item">
+                    <li class="list-group-item">
                       <div class="row mt-0 justify-content-around">
                         <div class="col-md-auto">Fuel Leakage Ok</div>
                         <div class="col-md-auto">{{ item['formBooleans'].fuel_leakage_ok }}</div>
                       </div>
                     </li>
 
-
-                                  <li class="list-group-item">
+                    <li class="list-group-item">
                       <div class="row mt-0 justify-content-around">
                         <div class="col-md-auto">Fuel Leakage Nozzle</div>
                         <div class="col-md-auto">{{ item['formBooleans'].fuel_nozzle }}</div>
                       </div>
                     </li>
 
-
-                                  <li class="list-group-item">
+                    <li class="list-group-item">
                       <div class="row mt-0 justify-content-around">
                         <div class="col-md-auto">Fuel Leakage Pipe Valve</div>
                         <div class="col-md-auto">{{ item['formBooleans'].fuel_pipe_valve }}</div>
                       </div>
                     </li>
 
-                                  <li class="list-group-item">
+                    <li class="list-group-item">
                       <div class="row mt-0 justify-content-around">
                         <div class="col-md-auto">Fuel Leakage Tube</div>
                         <div class="col-md-auto">{{ item['formBooleans'].fuel_tube }}</div>
                       </div>
                     </li>
 
-                             <li class="list-group-item">
+                    <li class="list-group-item">
                       <div class="row mt-0 justify-content-around">
                         <div class="col-md-auto">Fuel Leakage Filter</div>
                         <div class="col-md-auto">{{ item['formBooleans'].fuel_filter }}</div>
                       </div>
                     </li>
 
-                             <li class="list-group-item">
+                    <li class="list-group-item">
                       <div class="row mt-0 justify-content-around">
                         <div class="col-md-auto">Fuel Tank CM</div>
                         <div class="col-md-auto">{{ item['formDetails'].fuel_tank_cm }}</div>
                       </div>
                     </li>
 
-                                                 <li class="list-group-item">
+                    <li class="list-group-item">
                       <div class="row mt-0 justify-content-around">
                         <div class="col-md-auto">Fuel Tank Piping</div>
                         <div class="col-md-auto">{{ item['formBooleans'].fuel_tank_piping }}</div>
                       </div>
                     </li>
 
-                                            <li class="list-group-item">
+                    <li class="list-group-item">
                       <div class="row mt-0 justify-content-around">
                         <div class="col-md-auto">Fuel Tank Pipe Valves</div>
                         <div class="col-md-auto">{{ item['formBooleans'].fuel_tank_pipe_valves }}</div>
                       </div>
                     </li>
 
-                                                                <li class="list-group-item">
+                    <li class="list-group-item">
                       <div class="row mt-0 justify-content-around">
                         <div class="col-md-auto">Fuel Tank Drain</div>
                         <div class="col-md-auto">{{ item['formBooleans'].fuel_tank_drain }}</div>
                       </div>
                     </li>
+                    <li class="list-group-item">
+                      <div class="row mt-0 justify-content-around">
+                        <div class="col-md-auto">ATS Board Clean</div>
+                        <div class="col-md-auto">{{ item['formBooleans'].ats_board_clean }}</div>
+                      </div>
+                    </li>
+                    <li class="list-group-item">
+                      <div class="row mt-0 justify-content-around">
+                        <div class="col-md-auto">MDB Board Clean</div>
+                        <div class="col-md-auto">{{ item['formBooleans'].mdb_board_clean }}</div>
+                      </div>
+                    </li>
 
+                    <li class="list-group-item">
+                      <div class="row mt-0 justify-content-around">
+                        <div class="col-md-auto">ATS Board Status</div>
+                        <div class="col-md-auto">{{ item['formDetails'].ats_board_status }}</div>
+                      </div>
+                    </li>
+
+                    <li class="list-group-item">
+                      <div class="row mt-0 justify-content-around">
+                        <div class="col-md-auto">PLC Board Status</div>
+                        <div class="col-md-auto">{{ item['formDetails'].plc_board_status }}</div>
+                      </div>
+                    </li>
+
+                    <li class="list-group-item">
+                      <div class="row mt-0 justify-content-around">
+                        <div class="col-md-auto">ATS Contactor Status</div>
+                        <div class="col-md-auto">{{ item['formDetails'].ats_contactor_status }}</div>
+                      </div>
+                    </li>
+                    <li class="list-group-item">
+                      <div class="row mt-0 justify-content-around">
+                        <div class="col-md-auto">Relay And Timer Status Status</div>
+                        <div class="col-md-auto">{{ item['formDetails'].relay_timer_status }}</div>
+                      </div>
+                    </li>
+
+                    <li class="list-group-item">
+                      <div class="row mt-0 justify-content-around">
+                        <div class="col-md-auto">MDB Board Status</div>
+                        <div class="col-md-auto">{{ item['formDetails'].mdb_board_status }}</div>
+                      </div>
+                    </li>
+                    <li class="list-group-item">
+                      <div class="row mt-0 justify-content-around">
+                        <div class="col-md-auto">Surge Arrestor Status</div>
+                        <div class="col-md-auto">{{ item['formDetails'].surge_arrestor_status }}</div>
+                      </div>
+                    </li>
+
+                    <li class="list-group-item">
+                      <div class="row mt-0 justify-content-around">
+                        <div class="col-md-auto">Phase Failure Status</div>
+                        <div class="col-md-auto">{{ item['formDetails'].phase_failure_status }}</div>
+                      </div>
+                    </li>
+                    <li class="list-group-item">
+                      <div class="row mt-0 justify-content-around">
+                        <div class="col-md-auto">RBS CB Status</div>
+                        <div class="col-md-auto">{{ item['formDetails'].rbs_cb_status }}</div>
+                      </div>
+                    </li>
+
+                    <li class="list-group-item">
+                      <div class="row mt-0 justify-content-around">
+                        <div class="col-md-auto">RBS Heat Exchanger</div>
+                        <div class="col-md-auto">{{ item['formDetails'].rbs_heat_exchanger }}</div>
+                      </div>
+                    </li>
+
+                    <li class="list-group-item">
+                      <div class="row mt-0 justify-content-around">
+                        <div class="col-md-auto">RBS Battery 1 Set</div>
+                        <div class="col-md-auto">{{ item['formBooleans'].rbs1_battery_set }}</div>
+                      </div>
+                    </li>
+
+                    <li class="list-group-item">
+                      <div class="row mt-0 justify-content-around">
+                        <div class="col-md-auto">RBS Battery 2 sets</div>
+                        <div class="col-md-auto">{{ item['formBooleans'].rbs2_battery_sets }}</div>
+                      </div>
+                    </li>
+
+                    <li class="list-group-item">
+                      <div class="row mt-0 justify-content-around">
+                        <div class="col-md-auto">RBS Door Sensor</div>
+                        <div class="col-md-auto">{{ item['formDetails'].rbs_door_sensor }}</div>
+                      </div>
+                    </li>
+
+                    <li class="list-group-item">
+                      <div class="row mt-0 justify-content-around">
+                        <div class="col-md-auto">RBS Dummy</div>
+                        <div class="col-md-auto">{{ item['formDetails'].rbs_dummy }}</div>
+                      </div>
+                    </li>
+
+                    <li class="list-group-item">
+                      <div class="row mt-0 justify-content-around">
+                        <div class="col-md-auto">CLU Status</div>
+                        <div class="col-md-auto">{{ item['formDetails'].clu_status }}</div>
+                      </div>
+                    </li>
+
+                    <li class="list-group-item">
+                      <div class="row mt-0 justify-content-around">
+                        <div class="col-md-auto">Fire Extiguisher</div>
+                        <div class="col-md-auto">{{ item['formDetails'].fire_extiguisher_status }}</div>
+                      </div>
+                    </li>
+
+                    <li class="list-group-item">
+                      <div class="row mt-0 justify-content-around">
+                        <div class="col-md-auto">Flexible Tube Status</div>
+                        <div class="col-md-auto">{{ item['formDetails'].flexible_tube_status }}</div>
+                      </div>
+                    </li>
+
+                    <li class="list-group-item">
+                      <div class="row mt-0 justify-content-around">
+                        <div class="col-md-auto">Lights Status</div>
+                        <div class="col-md-auto">{{ item['formDetails'].lights_status }}</div>
+                      </div>
+                    </li>
+
+                    <li class="list-group-item">
+                      <div class="row mt-0 justify-content-around">
+                        <div class="col-md-auto">Emergency Lights Status</div>
+                        <div class="col-md-auto">{{ item['formDetails'].emergency_lights_status }}</div>
+                      </div>
+                    </li>
+                    <li class="list-group-item">
+                      <div class="row mt-0 justify-content-around">
+                        <div class="col-md-auto">No of PSUs/PDUs</div>
+                        <div class="col-md-auto">{{ item['formDetails'].no_of_psus_pdus }}</div>
+                      </div>
+                    </li>
+
+                    <li class="list-group-item">
+                      <div class="row mt-0 justify-content-around">
+                        <div class="col-md-auto">Commercial Power</div>
+                        <div class="col-md-auto">{{ item['formBooleans'].commercial_power }}</div>
+                      </div>
+                    </li>
+
+                    <li class="list-group-item">
+                      <div class="row mt-0 justify-content-around">
+                        <div class="col-md-auto">Commercial Power Amperes</div>
+                        <div class="col-md-auto">{{ item['formDetails'].commercial_power_amperes }}</div>
+                      </div>
+                    </li>
+
+                    <li class="list-group-item">
+                      <div class="row mt-0 justify-content-around">
+                        <div class="col-md-auto">Commercial Power CP Readings</div>
+                        <div
+                          class="col-md-auto"
+                        >{{ item['formDetails'].commercial_power_cpreadings }}</div>
+                      </div>
+                    </li>
+
+                    <li class="list-group-item">
+                      <div class="row mt-0 justify-content-around">
+                        <div class="col-md-auto">External Power</div>
+                        <div class="col-md-auto">{{ item['formBooleans'].external_power }}</div>
+                      </div>
+                    </li>
+
+                    <li class="list-group-item">
+                      <div class="row mt-0 justify-content-around">
+                        <div class="col-md-auto">External Power Amperes</div>
+                        <div class="col-md-auto">{{ item['formDetails'].external_power_amperes }}</div>
+                      </div>
+                    </li>
+
+                    <li class="list-group-item">
+                      <div class="row mt-0 justify-content-around">
+                        <div class="col-md-auto">Exceeding Power</div>
+                        <div class="col-md-auto">{{ item['formBooleans'].exceeding_power }}</div>
+                      </div>
+                    </li>
+
+                    <li class="list-group-item">
+                      <div class="row mt-0 justify-content-around">
+                        <div class="col-md-auto">Exceeding Power Amperes</div>
+                        <div class="col-md-auto">{{ item['formDetails'].exceeding_power_amperes }}</div>
+                      </div>
+                    </li>
+                    <li class="list-group-item">
+                      <div class="row mt-0 justify-content-around">
+                        <div class="col-md-auto">AC Status</div>
+                        <div class="col-md-auto">{{ item['formDetails'].ac_status }}</div>
+                      </div>
+                    </li>
+                    <li class="list-group-item">
+                      <div class="row mt-0 justify-content-around">
+                        <div class="col-md-auto">AC Type</div>
+                        <div class="col-md-auto">{{ item['formDetails'].ac_type }}</div>
+                      </div>
+                    </li>
+                    <li class="list-group-item">
+                      <div class="row mt-0 justify-content-around">
+                        <div class="col-md-auto">AC Size</div>
+                        <div class="col-md-auto">{{ item['formDetails'].ac_size }}</div>
+                      </div>
+                    </li>
+
+                    <li class="list-group-item">
+                      <div class="row mt-0 justify-content-around">
+                        <div class="col-md-auto">AC Control Status</div>
+                        <div class="col-md-auto">{{ item['formDetails'].ac_control_status }}</div>
+                      </div>
+                    </li>
+                    <li class="list-group-item">
+                      <div class="row mt-0 justify-content-around">
+                        <div class="col-md-auto">AC Control clean</div>
+                        <div class="col-md-auto">{{ item['formBooleans'].ac_clean }}</div>
+                      </div>
+                    </li>
+                    <li class="list-group-item">
+                      <div class="row mt-0 justify-content-around">
+                        <div class="col-md-auto">AC Control Site Clean</div>
+                        <div class="col-md-auto">{{ item['formBooleans'].site_clean }}</div>
+                      </div>
+                    </li>
+
+                    <li class="list-group-item">
+                      <div class="row mt-0 justify-content-around">
+                        <div class="col-md-auto">Alarm Door Sensor Clean OK</div>
+                        <div class="col-md-auto">{{ item['formBooleans'].alarm_door_sensor_ok }}</div>
+                      </div>
+                    </li>
+                     <li class="list-group-item">
+                      <div class="row mt-0 justify-content-around">
+                        <div class="col-md-auto">Alarm Door Sensor Clean Not OK</div>
+                        <div class="col-md-auto">{{ item['formBooleans'].alarm_door_sensor_not_ok }}</div>
+                      </div>
+                    </li>
+                    <li class="list-group-item">
+                      <div class="row mt-0 justify-content-around">
+                        <div class="col-md-auto">Alarm Generator OK</div>
+                        <div class="col-md-auto">{{ item['formBooleans'].alarm_generator_ok }}</div>
+                      </div>
+                    </li>
+                     <li class="list-group-item">
+                      <div class="row mt-0 justify-content-around">
+                        <div class="col-md-auto">Alarm Generator Not OK</div>
+                        <div class="col-md-auto">{{ item['formBooleans'].alarm_generator_not_ok }}</div>
+                      </div>
+                    </li>
+                    
+                    <li class="list-group-item">
+                      <div class="row mt-0 justify-content-around">
+                        <div class="col-md-auto">External Alarm Status Ok</div>
+                        <div class="col-md-auto">{{ item['formBooleans'].external_alarm_status_ok }}</div>
+                      </div>
+                    </li>
+                     <li class="list-group-item">
+                      <div class="row mt-0 justify-content-around">
+                        <div class="col-md-auto">External Alarm Status Not Ok</div>
+                        <div class="col-md-auto">{{ item['formBooleans'].external_alarm_status_not_ok }}</div>
+                      </div>
+                    </li>
+
+                     <li class="list-group-item">
+                      <div class="row mt-0 justify-content-around">
+                        <div class="col-md-auto">Comments</div>
+                        <div class="col-md-auto">{{ item['formDetails'].comments }}</div>
+                      </div>
+                    </li>
+
+                     <li class="list-group-item">
+                      <div class="row mt-0 justify-content-around">
+                        <div class="col-md-auto">General Notes</div>
+                        <div class="col-md-auto">{{ item['formDetails'].general_notes }}</div>
+                      </div>
+                    </li>
 
 
 

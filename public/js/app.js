@@ -2461,6 +2461,283 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 var config = {
   headers: {
     Authorization: "Bearer ".concat(window.localStorage.getItem("token"))
@@ -41459,6 +41736,1279 @@ var render = function() {
                                               _vm._s(
                                                 _vm.item["formBooleans"]
                                                   .fuel_tank_drain
+                                              )
+                                            )
+                                          ]
+                                        )
+                                      ]
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("li", { staticClass: "list-group-item" }, [
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "row mt-0 justify-content-around"
+                                      },
+                                      [
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [_vm._v("ATS Board Clean")]
+                                        ),
+                                        _vm._v(" "),
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [
+                                            _vm._v(
+                                              _vm._s(
+                                                _vm.item["formBooleans"]
+                                                  .ats_board_clean
+                                              )
+                                            )
+                                          ]
+                                        )
+                                      ]
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("li", { staticClass: "list-group-item" }, [
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "row mt-0 justify-content-around"
+                                      },
+                                      [
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [_vm._v("MDB Board Clean")]
+                                        ),
+                                        _vm._v(" "),
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [
+                                            _vm._v(
+                                              _vm._s(
+                                                _vm.item["formBooleans"]
+                                                  .mdb_board_clean
+                                              )
+                                            )
+                                          ]
+                                        )
+                                      ]
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("li", { staticClass: "list-group-item" }, [
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "row mt-0 justify-content-around"
+                                      },
+                                      [
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [_vm._v("ATS Board Status")]
+                                        ),
+                                        _vm._v(" "),
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [
+                                            _vm._v(
+                                              _vm._s(
+                                                _vm.item["formDetails"]
+                                                  .ats_board_status
+                                              )
+                                            )
+                                          ]
+                                        )
+                                      ]
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("li", { staticClass: "list-group-item" }, [
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "row mt-0 justify-content-around"
+                                      },
+                                      [
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [_vm._v("PLC Board Status")]
+                                        ),
+                                        _vm._v(" "),
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [
+                                            _vm._v(
+                                              _vm._s(
+                                                _vm.item["formDetails"]
+                                                  .plc_board_status
+                                              )
+                                            )
+                                          ]
+                                        )
+                                      ]
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("li", { staticClass: "list-group-item" }, [
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "row mt-0 justify-content-around"
+                                      },
+                                      [
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [_vm._v("ATS Contactor Status")]
+                                        ),
+                                        _vm._v(" "),
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [
+                                            _vm._v(
+                                              _vm._s(
+                                                _vm.item["formDetails"]
+                                                  .ats_contactor_status
+                                              )
+                                            )
+                                          ]
+                                        )
+                                      ]
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("li", { staticClass: "list-group-item" }, [
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "row mt-0 justify-content-around"
+                                      },
+                                      [
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [
+                                            _vm._v(
+                                              "Relay And Timer Status Status"
+                                            )
+                                          ]
+                                        ),
+                                        _vm._v(" "),
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [
+                                            _vm._v(
+                                              _vm._s(
+                                                _vm.item["formDetails"]
+                                                  .relay_timer_status
+                                              )
+                                            )
+                                          ]
+                                        )
+                                      ]
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("li", { staticClass: "list-group-item" }, [
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "row mt-0 justify-content-around"
+                                      },
+                                      [
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [_vm._v("MDB Board Status")]
+                                        ),
+                                        _vm._v(" "),
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [
+                                            _vm._v(
+                                              _vm._s(
+                                                _vm.item["formDetails"]
+                                                  .mdb_board_status
+                                              )
+                                            )
+                                          ]
+                                        )
+                                      ]
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("li", { staticClass: "list-group-item" }, [
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "row mt-0 justify-content-around"
+                                      },
+                                      [
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [_vm._v("Surge Arrestor Status")]
+                                        ),
+                                        _vm._v(" "),
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [
+                                            _vm._v(
+                                              _vm._s(
+                                                _vm.item["formDetails"]
+                                                  .surge_arrestor_status
+                                              )
+                                            )
+                                          ]
+                                        )
+                                      ]
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("li", { staticClass: "list-group-item" }, [
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "row mt-0 justify-content-around"
+                                      },
+                                      [
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [_vm._v("Phase Failure Status")]
+                                        ),
+                                        _vm._v(" "),
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [
+                                            _vm._v(
+                                              _vm._s(
+                                                _vm.item["formDetails"]
+                                                  .phase_failure_status
+                                              )
+                                            )
+                                          ]
+                                        )
+                                      ]
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("li", { staticClass: "list-group-item" }, [
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "row mt-0 justify-content-around"
+                                      },
+                                      [
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [_vm._v("RBS CB Status")]
+                                        ),
+                                        _vm._v(" "),
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [
+                                            _vm._v(
+                                              _vm._s(
+                                                _vm.item["formDetails"]
+                                                  .rbs_cb_status
+                                              )
+                                            )
+                                          ]
+                                        )
+                                      ]
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("li", { staticClass: "list-group-item" }, [
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "row mt-0 justify-content-around"
+                                      },
+                                      [
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [_vm._v("RBS Heat Exchanger")]
+                                        ),
+                                        _vm._v(" "),
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [
+                                            _vm._v(
+                                              _vm._s(
+                                                _vm.item["formDetails"]
+                                                  .rbs_heat_exchanger
+                                              )
+                                            )
+                                          ]
+                                        )
+                                      ]
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("li", { staticClass: "list-group-item" }, [
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "row mt-0 justify-content-around"
+                                      },
+                                      [
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [_vm._v("RBS Battery 1 Set")]
+                                        ),
+                                        _vm._v(" "),
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [
+                                            _vm._v(
+                                              _vm._s(
+                                                _vm.item["formBooleans"]
+                                                  .rbs1_battery_set
+                                              )
+                                            )
+                                          ]
+                                        )
+                                      ]
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("li", { staticClass: "list-group-item" }, [
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "row mt-0 justify-content-around"
+                                      },
+                                      [
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [_vm._v("RBS Battery 2 sets")]
+                                        ),
+                                        _vm._v(" "),
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [
+                                            _vm._v(
+                                              _vm._s(
+                                                _vm.item["formBooleans"]
+                                                  .rbs2_battery_sets
+                                              )
+                                            )
+                                          ]
+                                        )
+                                      ]
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("li", { staticClass: "list-group-item" }, [
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "row mt-0 justify-content-around"
+                                      },
+                                      [
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [_vm._v("RBS Door Sensor")]
+                                        ),
+                                        _vm._v(" "),
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [
+                                            _vm._v(
+                                              _vm._s(
+                                                _vm.item["formDetails"]
+                                                  .rbs_door_sensor
+                                              )
+                                            )
+                                          ]
+                                        )
+                                      ]
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("li", { staticClass: "list-group-item" }, [
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "row mt-0 justify-content-around"
+                                      },
+                                      [
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [_vm._v("RBS Dummy")]
+                                        ),
+                                        _vm._v(" "),
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [
+                                            _vm._v(
+                                              _vm._s(
+                                                _vm.item["formDetails"]
+                                                  .rbs_dummy
+                                              )
+                                            )
+                                          ]
+                                        )
+                                      ]
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("li", { staticClass: "list-group-item" }, [
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "row mt-0 justify-content-around"
+                                      },
+                                      [
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [_vm._v("CLU Status")]
+                                        ),
+                                        _vm._v(" "),
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [
+                                            _vm._v(
+                                              _vm._s(
+                                                _vm.item["formDetails"]
+                                                  .clu_status
+                                              )
+                                            )
+                                          ]
+                                        )
+                                      ]
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("li", { staticClass: "list-group-item" }, [
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "row mt-0 justify-content-around"
+                                      },
+                                      [
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [_vm._v("Fire Extiguisher")]
+                                        ),
+                                        _vm._v(" "),
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [
+                                            _vm._v(
+                                              _vm._s(
+                                                _vm.item["formDetails"]
+                                                  .fire_extiguisher_status
+                                              )
+                                            )
+                                          ]
+                                        )
+                                      ]
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("li", { staticClass: "list-group-item" }, [
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "row mt-0 justify-content-around"
+                                      },
+                                      [
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [_vm._v("Flexible Tube Status")]
+                                        ),
+                                        _vm._v(" "),
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [
+                                            _vm._v(
+                                              _vm._s(
+                                                _vm.item["formDetails"]
+                                                  .flexible_tube_status
+                                              )
+                                            )
+                                          ]
+                                        )
+                                      ]
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("li", { staticClass: "list-group-item" }, [
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "row mt-0 justify-content-around"
+                                      },
+                                      [
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [_vm._v("Lights Status")]
+                                        ),
+                                        _vm._v(" "),
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [
+                                            _vm._v(
+                                              _vm._s(
+                                                _vm.item["formDetails"]
+                                                  .lights_status
+                                              )
+                                            )
+                                          ]
+                                        )
+                                      ]
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("li", { staticClass: "list-group-item" }, [
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "row mt-0 justify-content-around"
+                                      },
+                                      [
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [_vm._v("Emergency Lights Status")]
+                                        ),
+                                        _vm._v(" "),
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [
+                                            _vm._v(
+                                              _vm._s(
+                                                _vm.item["formDetails"]
+                                                  .emergency_lights_status
+                                              )
+                                            )
+                                          ]
+                                        )
+                                      ]
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("li", { staticClass: "list-group-item" }, [
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "row mt-0 justify-content-around"
+                                      },
+                                      [
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [_vm._v("No of PSUs/PDUs")]
+                                        ),
+                                        _vm._v(" "),
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [
+                                            _vm._v(
+                                              _vm._s(
+                                                _vm.item["formDetails"]
+                                                  .no_of_psus_pdus
+                                              )
+                                            )
+                                          ]
+                                        )
+                                      ]
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("li", { staticClass: "list-group-item" }, [
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "row mt-0 justify-content-around"
+                                      },
+                                      [
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [_vm._v("Commercial Power")]
+                                        ),
+                                        _vm._v(" "),
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [
+                                            _vm._v(
+                                              _vm._s(
+                                                _vm.item["formBooleans"]
+                                                  .commercial_power
+                                              )
+                                            )
+                                          ]
+                                        )
+                                      ]
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("li", { staticClass: "list-group-item" }, [
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "row mt-0 justify-content-around"
+                                      },
+                                      [
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [_vm._v("Commercial Power Amperes")]
+                                        ),
+                                        _vm._v(" "),
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [
+                                            _vm._v(
+                                              _vm._s(
+                                                _vm.item["formDetails"]
+                                                  .commercial_power_amperes
+                                              )
+                                            )
+                                          ]
+                                        )
+                                      ]
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("li", { staticClass: "list-group-item" }, [
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "row mt-0 justify-content-around"
+                                      },
+                                      [
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [
+                                            _vm._v(
+                                              "Commercial Power CP Readings"
+                                            )
+                                          ]
+                                        ),
+                                        _vm._v(" "),
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [
+                                            _vm._v(
+                                              _vm._s(
+                                                _vm.item["formDetails"]
+                                                  .commercial_power_cpreadings
+                                              )
+                                            )
+                                          ]
+                                        )
+                                      ]
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("li", { staticClass: "list-group-item" }, [
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "row mt-0 justify-content-around"
+                                      },
+                                      [
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [_vm._v("External Power")]
+                                        ),
+                                        _vm._v(" "),
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [
+                                            _vm._v(
+                                              _vm._s(
+                                                _vm.item["formBooleans"]
+                                                  .external_power
+                                              )
+                                            )
+                                          ]
+                                        )
+                                      ]
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("li", { staticClass: "list-group-item" }, [
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "row mt-0 justify-content-around"
+                                      },
+                                      [
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [_vm._v("External Power Amperes")]
+                                        ),
+                                        _vm._v(" "),
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [
+                                            _vm._v(
+                                              _vm._s(
+                                                _vm.item["formDetails"]
+                                                  .external_power_amperes
+                                              )
+                                            )
+                                          ]
+                                        )
+                                      ]
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("li", { staticClass: "list-group-item" }, [
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "row mt-0 justify-content-around"
+                                      },
+                                      [
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [_vm._v("Exceeding Power")]
+                                        ),
+                                        _vm._v(" "),
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [
+                                            _vm._v(
+                                              _vm._s(
+                                                _vm.item["formBooleans"]
+                                                  .exceeding_power
+                                              )
+                                            )
+                                          ]
+                                        )
+                                      ]
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("li", { staticClass: "list-group-item" }, [
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "row mt-0 justify-content-around"
+                                      },
+                                      [
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [_vm._v("Exceeding Power Amperes")]
+                                        ),
+                                        _vm._v(" "),
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [
+                                            _vm._v(
+                                              _vm._s(
+                                                _vm.item["formDetails"]
+                                                  .exceeding_power_amperes
+                                              )
+                                            )
+                                          ]
+                                        )
+                                      ]
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("li", { staticClass: "list-group-item" }, [
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "row mt-0 justify-content-around"
+                                      },
+                                      [
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [_vm._v("AC Status")]
+                                        ),
+                                        _vm._v(" "),
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [
+                                            _vm._v(
+                                              _vm._s(
+                                                _vm.item["formDetails"]
+                                                  .ac_status
+                                              )
+                                            )
+                                          ]
+                                        )
+                                      ]
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("li", { staticClass: "list-group-item" }, [
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "row mt-0 justify-content-around"
+                                      },
+                                      [
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [_vm._v("AC Type")]
+                                        ),
+                                        _vm._v(" "),
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [
+                                            _vm._v(
+                                              _vm._s(
+                                                _vm.item["formDetails"].ac_type
+                                              )
+                                            )
+                                          ]
+                                        )
+                                      ]
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("li", { staticClass: "list-group-item" }, [
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "row mt-0 justify-content-around"
+                                      },
+                                      [
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [_vm._v("AC Size")]
+                                        ),
+                                        _vm._v(" "),
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [
+                                            _vm._v(
+                                              _vm._s(
+                                                _vm.item["formDetails"].ac_size
+                                              )
+                                            )
+                                          ]
+                                        )
+                                      ]
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("li", { staticClass: "list-group-item" }, [
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "row mt-0 justify-content-around"
+                                      },
+                                      [
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [_vm._v("AC Control Status")]
+                                        ),
+                                        _vm._v(" "),
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [
+                                            _vm._v(
+                                              _vm._s(
+                                                _vm.item["formDetails"]
+                                                  .ac_control_status
+                                              )
+                                            )
+                                          ]
+                                        )
+                                      ]
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("li", { staticClass: "list-group-item" }, [
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "row mt-0 justify-content-around"
+                                      },
+                                      [
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [_vm._v("AC Control clean")]
+                                        ),
+                                        _vm._v(" "),
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [
+                                            _vm._v(
+                                              _vm._s(
+                                                _vm.item["formBooleans"]
+                                                  .ac_clean
+                                              )
+                                            )
+                                          ]
+                                        )
+                                      ]
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("li", { staticClass: "list-group-item" }, [
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "row mt-0 justify-content-around"
+                                      },
+                                      [
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [_vm._v("AC Control Site Clean")]
+                                        ),
+                                        _vm._v(" "),
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [
+                                            _vm._v(
+                                              _vm._s(
+                                                _vm.item["formBooleans"]
+                                                  .site_clean
+                                              )
+                                            )
+                                          ]
+                                        )
+                                      ]
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("li", { staticClass: "list-group-item" }, [
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "row mt-0 justify-content-around"
+                                      },
+                                      [
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [_vm._v("Alarm Door Sensor Clean OK")]
+                                        ),
+                                        _vm._v(" "),
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [
+                                            _vm._v(
+                                              _vm._s(
+                                                _vm.item["formBooleans"]
+                                                  .alarm_door_sensor_ok
+                                              )
+                                            )
+                                          ]
+                                        )
+                                      ]
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("li", { staticClass: "list-group-item" }, [
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "row mt-0 justify-content-around"
+                                      },
+                                      [
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [
+                                            _vm._v(
+                                              "Alarm Door Sensor Clean Not OK"
+                                            )
+                                          ]
+                                        ),
+                                        _vm._v(" "),
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [
+                                            _vm._v(
+                                              _vm._s(
+                                                _vm.item["formBooleans"]
+                                                  .alarm_door_sensor_not_ok
+                                              )
+                                            )
+                                          ]
+                                        )
+                                      ]
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("li", { staticClass: "list-group-item" }, [
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "row mt-0 justify-content-around"
+                                      },
+                                      [
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [_vm._v("Alarm Generator OK")]
+                                        ),
+                                        _vm._v(" "),
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [
+                                            _vm._v(
+                                              _vm._s(
+                                                _vm.item["formBooleans"]
+                                                  .alarm_generator_ok
+                                              )
+                                            )
+                                          ]
+                                        )
+                                      ]
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("li", { staticClass: "list-group-item" }, [
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "row mt-0 justify-content-around"
+                                      },
+                                      [
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [_vm._v("Alarm Generator Not OK")]
+                                        ),
+                                        _vm._v(" "),
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [
+                                            _vm._v(
+                                              _vm._s(
+                                                _vm.item["formBooleans"]
+                                                  .alarm_generator_not_ok
+                                              )
+                                            )
+                                          ]
+                                        )
+                                      ]
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("li", { staticClass: "list-group-item" }, [
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "row mt-0 justify-content-around"
+                                      },
+                                      [
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [_vm._v("External Alarm Status Ok")]
+                                        ),
+                                        _vm._v(" "),
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [
+                                            _vm._v(
+                                              _vm._s(
+                                                _vm.item["formBooleans"]
+                                                  .external_alarm_status_ok
+                                              )
+                                            )
+                                          ]
+                                        )
+                                      ]
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("li", { staticClass: "list-group-item" }, [
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "row mt-0 justify-content-around"
+                                      },
+                                      [
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [
+                                            _vm._v(
+                                              "External Alarm Status Not Ok"
+                                            )
+                                          ]
+                                        ),
+                                        _vm._v(" "),
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [
+                                            _vm._v(
+                                              _vm._s(
+                                                _vm.item["formBooleans"]
+                                                  .external_alarm_status_not_ok
+                                              )
+                                            )
+                                          ]
+                                        )
+                                      ]
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("li", { staticClass: "list-group-item" }, [
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "row mt-0 justify-content-around"
+                                      },
+                                      [
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [_vm._v("Comments")]
+                                        ),
+                                        _vm._v(" "),
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [
+                                            _vm._v(
+                                              _vm._s(
+                                                _vm.item["formDetails"].comments
+                                              )
+                                            )
+                                          ]
+                                        )
+                                      ]
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("li", { staticClass: "list-group-item" }, [
+                                    _c(
+                                      "div",
+                                      {
+                                        staticClass:
+                                          "row mt-0 justify-content-around"
+                                      },
+                                      [
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [_vm._v("General Notes")]
+                                        ),
+                                        _vm._v(" "),
+                                        _c(
+                                          "div",
+                                          { staticClass: "col-md-auto" },
+                                          [
+                                            _vm._v(
+                                              _vm._s(
+                                                _vm.item["formDetails"]
+                                                  .general_notes
                                               )
                                             )
                                           ]
