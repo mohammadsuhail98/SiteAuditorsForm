@@ -426,7 +426,7 @@
 
                     <li class="list-group-item">
                       <div class="row mt-0 justify-content-around">
-                        <div class="col-md-auto">Engine Smoke Blac;</div>
+                        <div class="col-md-auto">Engine Smoke Black</div>
                         <div class="col-md-auto">{{ item['formBooleans'].engine_smoke_black }}</div>
                       </div>
                     </li>

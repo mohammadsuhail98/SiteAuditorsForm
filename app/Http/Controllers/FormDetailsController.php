@@ -7,6 +7,8 @@ use Illuminate\Http\Request;
 use App\FormBoolean;
 use Maatwebsite\Excel\Facades\Excel;
 use App\Exports\FormExport;
+use Illuminate\Support\Facades\DB;
+use Maatwebsite\Excel\Excel as MaatwebsiteExcel;
 
 class FormDetailsController extends Controller
 {
@@ -181,8 +183,9 @@ class FormDetailsController extends Controller
             ]
         ]);
     }
+    
     public function getExcel()
-    {
+    {             
         return Excel::download(new FormExport, 'data.xlsx');
     }
 }

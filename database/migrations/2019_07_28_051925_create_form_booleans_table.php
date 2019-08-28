@@ -36,7 +36,6 @@ class CreateFormBooleansTable extends Migration
             $table->boolean('gen2_chargin_issue')->default(false);
             $table->boolean('rbs1_battery_clean')->default(false);
             $table->boolean('rbs2_battery_clean')->default(false);
-            
             $table->boolean('gen1_sensor_status')->default(false);
             $table->boolean('gen2_sensor_status')->default(false);
             $table->boolean('gen1_charging_issue')->default(false);
