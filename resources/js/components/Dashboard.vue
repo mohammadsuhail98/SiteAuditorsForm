@@ -708,6 +708,7 @@
                         <div class="col-md-auto">{{ item['formDetails'].emergency_lights_status }}</div>
                       </div>
                     </li>
+
                     <li class="list-group-item">
                       <div class="row mt-0 justify-content-around">
                         <div class="col-md-auto">No of PSUs/PDUs</div>
@@ -765,12 +766,14 @@
                         <div class="col-md-auto">{{ item['formDetails'].exceeding_power_amperes }}</div>
                       </div>
                     </li>
+
                     <li class="list-group-item">
                       <div class="row mt-0 justify-content-around">
                         <div class="col-md-auto">AC Status</div>
                         <div class="col-md-auto">{{ item['formDetails'].ac_status }}</div>
                       </div>
                     </li>
+                    
                     <li class="list-group-item">
                       <div class="row mt-0 justify-content-around">
                         <div class="col-md-auto">AC Type</div>
