@@ -143,7 +143,7 @@
             />
           </div>
           <a
-            href="http://127.0.0.1:8000/api/v1/forms_excel"
+            href="http://165.22.123.85/api/v1/forms_excel"
             target="_blank"
             class="btn btn-primary"
             rel="noopener noreferrer"
@@ -937,8 +937,8 @@ export default {
   methods: {
     checkUser() {
       if (!window.localStorage.getItem("token"))
-        return (window.location.href = "http://127.0.0.1:8000/");
-      axios.get("http://127.0.0.1:8000/api/v1/user", config).then(res => {
+        return (window.location.href = "http://165.22.123.85/");
+      axios.get("http://165.22.123.85/api/v1/user", config).then(res => {
         if (res.data["is_admin"] == 1) this.isUserGood = true;
       });
     },
@@ -947,23 +947,23 @@ export default {
     },
     logout() {
       window.localStorage.removeItem("token");
-      window.location.href = "http://127.0.0.1:8000/";
+      window.location.href = "http://165.22.123.85/";
     },
     getUsers() {
       axios
-        .get("http://127.0.0.1:8000/api/v1/users", config)
+        .get("http://165.22.123.85/api/v1/users", config)
         .then(res => (this.users = res.data["data"]));
     },
     async getFields() {
       let result = await axios.get(
-        "http://127.0.0.1:8000/api/v1/forms_details",
+        "http://165.22.123.85/api/v1/forms_details",
         config
       );
       this.data = result["data"].data;
     },
     registration() {
       axios
-        .post("http://127.0.0.1:8000/api/v1/registration", this.form, config)
+        .post("http://165.22.123.85/api/v1/registration", this.form, config)
         .then(res => {
           if (res.data["success"]) this.userRegistrationDone = true;
         });

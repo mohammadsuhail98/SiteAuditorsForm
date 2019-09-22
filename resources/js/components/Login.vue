@@ -42,13 +42,13 @@ export default {
     },
     async logIn() {
       await axios
-        .post("http://127.0.0.1:8000/api/v1/login", {
+        .post("http://165.22.123.85/api/v1/login", {
           email: this.email,
           password: this.password
         })
         .then(res => {
           window.localStorage.setItem("token", res.data.access_token);
-          window.location.href = "http://127.0.0.1:8000/dashboard";
+          window.location.href = "http://165.22.123.85/dashboard";
         });
     }
   }
